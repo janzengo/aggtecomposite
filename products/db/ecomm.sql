@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 02, 2021 at 05:02 AM
+-- Generation Time: Sep 01, 2021 at 06:43 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.6
 
@@ -113,16 +113,16 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `category_id`, `name`, `description`, `slug`, `price`, `photo`, `date_view`, `counter`) VALUES
-(1, 8, 'AGG 50J30-WPC Hollow Joist(2.9m)', '<p>One of the accessories in making your desired WPC Experience.</p>\r\n', 'agg-50j30-wpc-hollow-joist-2-9m', 525, 'agg-50j30.jpg', '2021-07-02', 4),
-(2, 7, 'AGG 138H22-WPC Co-Extrusion Deep Wood Grain Hallow Decking', '<p><strong>138mm </strong><em>width </em>x <strong>22mm </strong><em>thickness</em>, the <em>length </em>is <strong>2.2m</strong></p>\r\n\r\n<p><strong><em>Dimension:</em>&nbsp;2200mm x 138 mm x 22mm</strong></p>\r\n\r\n<p>One side deep wood grain and the other is side plain flat (No brushed).</p>\r\n\r\n<p>Available Colors:&nbsp;</p>\r\n\r\n<ul>\r\n	<li>Teak</li>\r\n	<li>Wallnut</li>\r\n</ul>\r\n', 'agg-138h22-wpc-co-extrusion-deep-wood-grain-hallow-decking', 1225, 'agg-138h22_1623491517.jpg', '2021-07-02', 1),
-(4, 7, 'AGG 150H25A-5 Groove Hallow Decking', '<p><strong>150mm</strong> <em>width </em>x <strong>24mm</strong> <em>thickness</em>, the <em>length </em>is <strong>2.2m</strong></p>\r\n\r\n<p><strong><em>Dimention</em>:&nbsp;2200mm x 150&nbsp;mm x 25mm</strong></p>\r\n\r\n<p>5 groove lined&nbsp;top surface&nbsp;and narrow groove lined bottom surface</p>\r\n\r\n<p>Available Colors:&nbsp;</p>\r\n\r\n<ul>\r\n	<li><strong>Teak</strong></li>\r\n</ul>\r\n\r\n<p><strong>Sketch Dimension:&nbsp;</strong></p>\r\n\r\n<p><img alt=\"\" src=\"../products/images/dimensions/150H25A.png\" style=\"height:109px; width:367px\" /></p>\r\n', 'agg-150h25a-5-groove-hallow-decking', 920, 'agg-150h25a.jpg', '2021-07-02', 8),
-(5, 7, 'AGG 160H25-7 Groove Hallow Decking', '<p><strong>160mm </strong><em>width </em>x <strong>25mm </strong><em>thickness</em>, the <em>length </em>is <strong>2.2m</strong></p>\r\n\r\n<p><strong><em>Dimention:</em></strong><strong>&nbsp;2200mm x 138 mm x 22mm</strong></p>\r\n\r\n<p>One side deep wood grain and the other is side plain flat (No brushed).</p>\r\n\r\n<p>Available Colors:&nbsp;</p>\r\n\r\n<ul>\r\n	<li><strong>Teak</strong></li>\r\n	<li><strong>Wallnut</strong></li>\r\n</ul>\r\n', 'agg-160h25-7-groove-hallow-decking', 920, 'agg-160h25.jpg', '2021-06-24', 8),
-(6, 6, 'AGG 164W13-Solid Haspe Grain B Cladding', '<p>Cladding Panel</p>\r\n', 'agg-164w13-solid-haspe-grain-b-cladding', 885, 'agg-164w13.jpg', '2021-06-27', 4),
-(7, 6, 'AGG 174W21-Hallow Wall Cladding', '<p>Cladding Panel</p>\r\n', 'agg-174w21-hallow-wall-cladding', 795, 'agg-174w21.jpg', '2021-06-24', 12),
+(1, 8, 'AGG 50J30-WPC Hollow Joist(2.9m)', '<p>One of the accessories in making your desired WPC Experience.</p>\r\n', 'agg-50j30-wpc-hollow-joist-2-9m', 525, 'agg-50j30.jpg', '2021-07-07', 3),
+(2, 7, 'AGG 138H22-WPC Co-Extrusion Deep Wood Grain Hallow Decking', '<p><strong>138mm </strong><em>width </em>x <strong>22mm </strong><em>thickness</em>, the <em>length </em>is <strong>2.2m</strong></p>\r\n\r\n<p><strong><em>Dimension:</em>&nbsp;2200mm x 138 mm x 22mm</strong></p>\r\n\r\n<p>One side deep wood grain and the other is side plain flat (No brushed).</p>\r\n\r\n<p>Available Colors:&nbsp;</p>\r\n\r\n<ul>\r\n	<li>Teak</li>\r\n	<li>Wallnut</li>\r\n</ul>\r\n', 'agg-138h22-wpc-co-extrusion-deep-wood-grain-hallow-decking', 1225, 'agg-138h22_1623491517.jpg', '2021-07-07', 1),
+(4, 7, 'AGG 150H25A-5 Groove Hallow Decking', '<p><strong>150mm</strong> <em>width </em>x <strong>24mm</strong> <em>thickness</em>, the <em>length </em>is <strong>2.2m</strong></p>\r\n\r\n<p><strong><em>Dimention</em>:&nbsp;2200mm x 150&nbsp;mm x 25mm</strong></p>\r\n\r\n<p>5 groove lined&nbsp;top surface&nbsp;and narrow groove lined bottom surface</p>\r\n\r\n<p>Available Colors:&nbsp;</p>\r\n\r\n<ul>\r\n	<li><strong>Teak</strong></li>\r\n</ul>\r\n\r\n<p><strong>Sketch Dimension:&nbsp;</strong></p>\r\n\r\n<p><img alt=\"\" src=\"../products/images/dimensions/150H25A.png\" style=\"height:109px; width:367px\" /></p>\r\n', 'agg-150h25a-5-groove-hallow-decking', 920, 'agg-150h25a.jpg', '2021-07-07', 2),
+(5, 7, 'AGG 160H25-7 Groove Hallow Decking', '<p><strong>160mm </strong><em>width </em>x <strong>25mm </strong><em>thickness</em>, the <em>length </em>is <strong>2.2m</strong></p>\r\n\r\n<p><strong><em>Dimention:</em></strong><strong>&nbsp;2200mm x 138 mm x 22mm</strong></p>\r\n\r\n<p>One side deep wood grain and the other is side plain flat (No brushed).</p>\r\n\r\n<p>Available Colors:&nbsp;</p>\r\n\r\n<ul>\r\n	<li><strong>Teak</strong></li>\r\n	<li><strong>Wallnut</strong></li>\r\n</ul>\r\n', 'agg-160h25-7-groove-hallow-decking', 920, 'agg-160h25.jpg', '2021-07-05', 2),
+(6, 6, 'AGG 164W13-Solid Haspe Grain B Cladding', '<p>Cladding Panel</p>\r\n', 'agg-164w13-solid-haspe-grain-b-cladding', 885, 'agg-164w13.jpg', '2021-07-07', 4),
+(7, 6, 'AGG 174W21-Hallow Wall Cladding', '<p>Cladding Panel</p>\r\n', 'agg-174w21-hallow-wall-cladding', 795, 'agg-174w21.jpg', '2021-07-07', 4),
 (8, 6, 'AGG C219W26-Corrugated/Fluted Cladding', '<p>Cladding Panel</p>\r\n', 'agg-c219w26-corrugated-fluted-cladding', 1485, 'agg-c219w26.jpg', '2021-07-02', 2),
-(9, 8, 'AGG A01-WPC Edge Cover Angle/Endcap (2.9m)', '<p>Panel Accessories</p>\r\n', 'agg-a01-wpc-edge-cover-angle-endcap-2-9m', 445, 'agg-a01.jpg', '0000-00-00', 0),
-(10, 8, 'AGG C01-Decking Plastic Mounting Clip', '<p>Panel Accessories</p>\r\n', 'agg-c01-decking-plastic-mounting-clip', 20, 'agg-co1.jpg', '2021-06-24', 8),
-(11, 8, 'AGG C02-Decking Stainless Steel Mounting Clip', '<p>Panel Accessories</p>\r\n', 'agg-c02-decking-stainless-steel-mounting-clip', 30, 'agg-co2.jpg', '2021-06-27', 1),
+(9, 8, 'AGG A01-WPC Edge Cover Angle/Endcap (2.9m)', '<p>Panel Accessories</p>\r\n', 'agg-a01-wpc-edge-cover-angle-endcap-2-9m', 445, 'agg-a01.jpg', '2021-07-07', 1),
+(10, 8, 'AGG C01-Decking Plastic Mounting Clip', '<p>Panel Accessories</p>\r\n', 'agg-c01-decking-plastic-mounting-clip', 20, 'agg-co1.jpg', '2021-07-07', 1),
+(11, 8, 'AGG C02-Decking Stainless Steel Mounting Clip', '<p>Panel Accessories</p>\r\n', 'agg-c02-decking-stainless-steel-mounting-clip', 30, 'agg-co2.jpg', '2021-07-07', 1),
 (12, 8, 'AGG C03-Stainless Steel Start Clip', '<p>Panel Accessories</p>\r\n', 'agg-c03-stainless-steel-start-clip', 30, 'agg-co3.jpg', '2021-06-24', 2),
 (13, 8, 'AGG C04-Decking Stainless Steel Mounting Clips', '<p>Panel Accessories</p>\r\n', 'agg-c04-decking-stainless-steel-mounting-clips', 45, 'agg-co4.jpg', '2021-06-30', 3),
 (14, 8, 'AGG C05-Stainless Steel Screw', '<p>Panel Accessories</p>\r\n', 'agg-c05-stainless-steel-screw', 5, 'agg-co5.jpg', '0000-00-00', 0),
@@ -177,18 +177,9 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-
 INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
-(1, 'admin@admin.com', '$2y$10$8wY63GX/y9Bq780GBMpxCesV9n1H6WyCqcA2hNy2uhC59hEnOpNaS', 1, 'Janzen', 'Go', '', '', 'Joji-0.jpg', 1, '', '', '2021-07-02');
-
-INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
-(2, 'janzen@admin.com', '$2y$10$8wY63GX/y9Bq780GBMpxCesV9n1H6WyCqcA2hNy2uhC59hEnOpNaS', 1, 'Janzen', 'Go', '', '', 'janzen_profile.jpg', 1, '', '', '2021-07-02');
-
-INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
-(3, 'arnel@admin.com', '$2y$10$8wY63GX/y9Bq780GBMpxCesV9n1H6WyCqcA2hNy2uhC59hEnOpNaS', 1, 'Arnel', 'Go', '', '', 'Joji-0.jpg', 1, '', '', '2021-07-02');
-
-INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
-(4, 'dimple@admin.com', '$2y$10$8wY63GX/y9Bq780GBMpxCesV9n1H6WyCqcA2hNy2uhC59hEnOpNaS', 1, 'Dimple', 'Fev', '', '', 'Joji-0.jpg', 1, '', '', '2021-07-02');
+(1, 'admin@admin.com', '$2y$10$TsFzizAkjbVqgJ9zDC3sBOvgqK8ZrpTWPVhL8OVIDJKm/4ZNhgNSm', 1, 'Super', 'Admin', '', '', 'admin.png', 1, '', '', '2021-07-02'),
+(2, 'janzen@admin.com', '$2y$10$d3wOK0yyyuSpsdh.nNpOBeEQiUJcA77vOTIdhpYjhw.kNGEWzbn6i', 1, 'Janzen', 'Go', '', '', 'janzen_profile.jpg', 1, '', '', '2021-07-02');
 
 --
 -- Indexes for dumped tables

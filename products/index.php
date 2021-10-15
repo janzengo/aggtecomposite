@@ -5,7 +5,7 @@
 </div>
 <style>
 	#invis {
-		display: none;
+		opacity: 0%;
 	}
 </style>
 <div id="invis">
@@ -34,7 +34,7 @@
         });
     });
 	$(window).load(function(){
-    $('#invis').show();
+	$( "#invis" ).animate({ opacity: 1 }, 1000);
     $('.preloader').fadeOut(500);
 });
 </script>

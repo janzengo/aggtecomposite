@@ -476,7 +476,7 @@
           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding_p.jpg" alt="img-8">
             <div class="caption">
               <h3>WPC Cladding</h3>
-              <p>Philippines</p>
+              <p>Ilocos Sur</p>
             </div>
             <div class="link-wrap"> <a href="images/gallery/cladding/cladding_p.jpg" title="Accent Cladding" class="lightbox-image"><i class="fa fa-search"></i></a>  </div>
           </div>
@@ -487,7 +487,7 @@
           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding_q.jpg" alt="img-8">
             <div class="caption">
               <h3>WPC Cladding</h3>
-              <p>Philippines</p>
+              <p>Candelaria, Quezon</p>
             </div>
             <div class="link-wrap"> <a href="images/gallery/cladding/cladding_q.jpg" title="Accent Cladding" class="lightbox-image"><i class="fa fa-search"></i></a>  </div>
           </div>

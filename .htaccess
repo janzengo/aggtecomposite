@@ -1,19 +1,13 @@
-RewriteOptions inherit
-
 RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+#####exclude /cp folder####
+RewriteCond %{REQUEST_URI} !^/cp
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*[^0-9])$ $1.php
 
-
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
-# Custom
-#remove php file extension-e.g. https://example.com/file.php will become https://example.com/file 
-RewriteEngine on
-RewriteRule ^(php)($|/) - [L]
-RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
-RewriteRule ^ /%1 [NC,L,R]
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /((?!cp)[^.]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [NC,L,QSA,R=301]
 
 # As Suggested by patchstack.com
 <IfModule mod_headers.c>

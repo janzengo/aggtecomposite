@@ -189,7 +189,7 @@ a.float:hover + div.label-container{
 							echo"
 								<a class='buttonProdView' data-dismiss='modal' aria-label='Close' data-toggle='modal' data-target='.prodModal'><i class='fa fa-list'></i> View Products for Quotation</a>
 								<a class='float' data-dismiss='modal' aria-label='Close' data-toggle='modal' data-target='.prodModal'>
-						<i class='fa fa-list my-float' style='font-size: 30px;'></i>
+						<i class='fa fa-shopping-cart my-float' style='font-size: 30px;'></i>
 						</a>
 						<div class='label-container'>
 						<div class='label-text'>View Products for Quotation</div>

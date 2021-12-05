@@ -2,11 +2,11 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 #####exclude /cp folder####
-RewriteCond %{REQUEST_URI} !^/cp
+RewriteCond %{REQUEST_URI} !^/products
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*[^0-9])$ $1.php
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /((?!cp)[^.]+)\.php
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /((?!products)[^.]+)\.php
 RewriteRule ^/?(.*)\.php$ /$1 [NC,L,QSA,R=301]
 
 # As Suggested by patchstack.com

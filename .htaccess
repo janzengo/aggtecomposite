@@ -14,41 +14,6 @@ RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^ %{REQUEST_URI}.php [NC,L]
-RewriteCond %{HTTP_HOST} ^mail\.aggtedeck\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mail\.aggtedeck\.com$
-RewriteRule ^/?$ "https\:\/\/webmail\.aggtedeck\.com\/" [R=301,L]
-RewriteCond %{HTTP_HOST} ^cpanel\.aggtedeck\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.cpanel\.aggtedeck\.com$
-RewriteRule ^/?$ "https\:\/\/my\.web\.z\.com\/" [R=301,L]
-
-# BEGIN cPanel-generated php ini directives, do not edit
-# Manual editing of this file may result in unexpected behavior.
-# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
-# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
-<IfModule php7_module>
-   php_flag display_errors Off
-   php_value max_execution_time 30
-   php_value max_input_time 60
-   php_value max_input_vars 1000
-   php_value memory_limit 32M
-   php_value post_max_size 8M
-   php_value session.gc_maxlifetime 1440
-   php_value session.save_path "/var/cpanel/php/sessions/ea-php72"
-   php_value upload_max_filesize 2M
-   php_flag zlib.output_compression Off
-</IfModule>
-<IfModule lsapi_module>
-   php_flag display_errors Off
-   php_value max_execution_time 30
-   php_value max_input_time 60
-   php_value max_input_vars 1000
-   php_value memory_limit 32M
-   php_value post_max_size 8M
-   php_value session.gc_maxlifetime 1440
-   php_value session.save_path "/var/cpanel/php/sessions/ea-php72"
-   php_value upload_max_filesize 2M
-   php_flag zlib.output_compression Off
-</IfModule>
 
 # As Suggested by patchstack.com
 <IfModule mod_headers.c>
@@ -59,47 +24,3 @@ RewriteRule ^/?$ "https\:\/\/my\.web\.z\.com\/" [R=301,L]
    Header set Strict-Transport-Security "max-age=31536000"
    Header unset X-Powered-By
 </IfModule>
-
-# END cPanel-generated php ini directives, do not edit
-
-RewriteCond %{HTTP_HOST} ^aggtedeck\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.aggtedeck\.com$
-RewriteRule ^index\.php$ "https\:\/\/www\.aggtedeck\.com\/" [R=301,L]
-
-
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php74” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit
-
-# BEGIN cPanel-generated php ini directives, do not edit
-# Manual editing of this file may result in unexpected behavior.
-# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
-# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
-<IfModule php7_module>
-   php_flag display_errors Off
-   php_value max_execution_time 180
-   php_value max_input_time 180
-   php_value max_input_vars 1000
-   php_value memory_limit 820M
-   php_value post_max_size 16M
-   php_value session.gc_maxlifetime 1440
-   php_value session.save_path "/var/cpanel/php/sessions/ea-php72"
-   php_value upload_max_filesize 2M
-   php_flag zlib.output_compression Off
-</IfModule>
-<IfModule lsapi_module>
-   php_flag display_errors Off
-   php_value max_execution_time 180
-   php_value max_input_time 180
-   php_value max_input_vars 1000
-   php_value memory_limit 820M
-   php_value post_max_size 16M
-   php_value session.gc_maxlifetime 1440
-   php_value session.save_path "/var/cpanel/php/sessions/ea-php72"
-   php_value upload_max_filesize 2M
-   php_flag zlib.output_compression Off
-</IfModule>
-# END cPanel-generated php ini directives, do not edit

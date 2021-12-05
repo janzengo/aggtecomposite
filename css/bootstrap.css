@@ -1044,7 +1044,7 @@ a {
 	text-decoration: none
 }
 a:focus, a:hover {
-	color: #23527c;
+	color: #d5fff7;
 	text-decoration: underline
 }
 a:focus {
@@ -2802,7 +2802,7 @@ select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-contr
 	border-color: transparent
 }
 .btn-link:focus, .btn-link:hover {
-	color: #23527c;
+	color: #d5fff7;
 	text-decoration: underline;
 	background-color: transparent
 }
@@ -3951,7 +3951,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	border-bottom-right-radius: 4px
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-	color: #23527c;
+	color: #d5fff7;
 	background-color: #eee;
 	border-color: #ddd
 }

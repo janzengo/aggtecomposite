@@ -27,6 +27,8 @@
   	<?php include '../footer.php'; ?>
 <?php include 'includes/scripts.php'; ?>
 <?php include 'includes/links.php' ?>
+
+</body>
 </div>
 <script>
     $(document).ready(function() {
@@ -38,5 +40,4 @@
     $('.preloader').fadeOut(500);
 });
 </script>
-</body>
 </html>

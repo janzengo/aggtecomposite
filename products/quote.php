@@ -66,7 +66,7 @@ $cartArrC = 0;
         $sendMessage .= $items[$cartArrC] . "\n";
     $cartArrC++;
 }
-$sendMessage .= "\nSincerly yours, \n -AGGTEDeck WPC Cladding & Decking Team\n";
+$sendMessage .= "\nRegards, \n -AGGTEDeck WPC Cladding & Decking Team\n";
 mail($senderEmail, $confSubject, $sendMessage, $confHeader);
 ?>
 

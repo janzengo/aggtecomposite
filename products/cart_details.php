@@ -75,7 +75,7 @@
 
 			$output .= "
 				<tr>
-					<td colspan='5' align='center'><i>Note</i>: This is <b>not a shopping cart</b>. This means that the products enlisted above will only be sent via email for the purpose of quotation, and will not be delivered. For inquiries, please reach us out on <a href='../contact.php' style='color: #228b22;'>inquire@aggtedeck.com</a>.</td>
+					<td colspan='5' align='center'><i>Note</i>: This is <b>not a shopping cart</b>. This means that the products enlisted above will only be sent via email for the purpose of quotation, and will not be delivered. For inquiries, please reach us out on <a href='../contact.php' style='color: #228b22;'>qoute@aggtedeck.com</a>.</td>
 				<tr>
 			";
 		}

@@ -45,6 +45,7 @@
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
+	z-index: 9999;
 }
 
 .my-float{
@@ -93,6 +94,7 @@ a.float:hover + div.label-container{
 
 ?>
 <?php include 'includes/header.php'; ?>
+<?php require_once 'cart_modals.php'; ?>
 <body class="hold-transition skin-blue layout-top-nav">
 <!--<script>
 (function(d, s, id) {

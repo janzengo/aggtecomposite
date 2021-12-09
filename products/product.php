@@ -94,7 +94,6 @@ a.float:hover + div.label-container{
 
 ?>
 <?php include 'includes/header.php'; ?>
-<?php require_once 'cart_modals.php'; ?>
 <body class="hold-transition skin-blue layout-top-nav">
 <!--<script>
 (function(d, s, id) {
@@ -202,4 +201,5 @@ $(function(){
 });
 </script>
 </body>
+<?php require_once 'cart_modals.php'; ?>
 </html>

@@ -239,12 +239,12 @@
 
         <form class="login-form" method="post" action="tripetto" name="quote-form" role="form" enctype="multipart/form-data">
         <fieldset>
-         <div id="tripetto"></div>
-<script src="https://unpkg.com/tripetto-runner-foundation"></script>
-<script src="https://unpkg.com/tripetto-runner-chat"></script>
-<script src="https://unpkg.com/tripetto-services"></script>
+        <div id="tripetto"></div>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-foundation"></script>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-chat"></script>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-services"></script>
 <script>
-var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNzVhWEVSOGhYdlZjV2c4RlF4VVUzOTdTSGdaNVRKaUI4Y2d1R2pobXJ1bz0iLCJkZWZpbml0aW9uIjoiVmNmeWJLZ3k5SmhYMGxFT0VwZW05aGo0MnozalNYOFdDbFlXcldDaCthND0iLCJ0eXBlIjoiY29sbGVjdCJ9.Wm1OYk1pHXYZk6llTgpJDmGyssry4iWoRGbIZCKbAl8" });
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiSGtiK0hCTytIclB0NWZodncydS9oRnpjYXBOM3FHTVQrWkVOdllxK2x1TT0iLCJkZWZpbml0aW9uIjoibG9yajJyRmtBVTIrdU53L1NLSWdHQ3dsSE5xZGVwL3ZaVnA3TGR4K1U5ND0iLCJ0eXBlIjoiY29sbGVjdCJ9.FSr350asH65eGhqxVU-JmyCS3bu9vj3_ZCNoGW9UpGM" });
 
 TripettoChat.run({
     element: document.getElementById("tripetto"),

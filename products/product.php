@@ -201,5 +201,4 @@ $(function(){
 });
 </script>
 </body>
-<?php require_once 'cart_modals.php'; ?>
 </html>

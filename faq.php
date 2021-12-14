@@ -391,7 +391,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-                <form action="php/faq.php" method="POST" id="xs-contact-form" class="xs-form">
+                <form action="php/faqs.php" method="POST" id="xs-contact-form" class="xs-form">
                             <input required type="text" class="form-control" name="clientName" placeholder="Name" id="xs_contact_name">
                             <input required  type="email" class="form-control" name="email" placeholder="Email" id="xs_contact_email">
                             <input required type="text" class="form-control" name="phone_number" placeholder="Contact Number" id="xs_contact_email">
@@ -407,7 +407,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                             <textarea required name="rq-message" placeholder="Your Question" id="x_contact_massage" class="form-control message-box" cols="30" rows="10"></textarea>
                            <div class="readmore text-center">
-              <button class="main-btn btn-1 btn-1e">SEND QUESTION</button>
+                    <input style="display: none" value="Confirm" name="submit"><button class="main-btn btn-1 btn-1e">SEND QUESTION</button>
             </div>
         </form>
               </div>

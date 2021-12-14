@@ -16,21 +16,7 @@
     $radioSelection = $_POST['call'];
     $message = "From: $from\n" . "Client Name: $clientName \n" . "Client Contact Number: $phone \n" . "Call: $radioSelection \n";
     $message .= "\nMessage: $mainMessage \n";
-}
-?>
-
-<!-- Email To Sender -->
-<?php 
-$senderEmail = $_POST["email"];
-$confSubject = "AGGTEDeck: Your recent inquiry";
-$confHeader = "From: AGGTEDeck WPC Cladding & Decking <no-reply@aggtedeck.com>";
-$sendMessage = "Your email: $senderEmail \n";
-$sendMessage .= "Hi $clientName! \nThank you for your inquiries. A member of our team will respond to your message as soon as possible.\n";
-$sendMessage .= "\nRegards, \n -AGGTEDeck WPC Cladding & Decking Team\n";
-mail($senderEmail, $confSubject, $sendMessage, $confHeader);
-?>
-<?php
-$ok = mail($to, $subject, $message, $headers); 
+    $ok = mail($to, $subject, $message, $headers); 
 	if ($ok) {
         echo "<div class='preloader'></div><center><h1 style='position: relative;top: 250px;font-family:Arial;'>Your message was successfully sent!</h1></center>";
         session_start();
@@ -47,4 +33,17 @@ $ok = mail($to, $subject, $message, $headers);
             }, 2000);
             </script>";
 	}
+}
 ?>
+
+<!-- Email To Sender -->
+<?php 
+$senderEmail = $_POST["email"];
+$confSubject = "AGGTEDeck: Your recent inquiry";
+$confHeader = "From: AGGTEDeck WPC Cladding & Decking <no-reply@aggtedeck.com>";
+$sendMessage = "Your email: $senderEmail \n";
+$sendMessage .= "Hi $clientName! \nThank you for your inquiries. A member of our team will respond to your message as soon as possible.\n";
+$sendMessage .= "\nRegards, \n -AGGTEDeck WPC Cladding & Decking Team\n";
+mail($senderEmail, $confSubject, $sendMessage, $confHeader);
+?>
+

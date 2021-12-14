@@ -392,11 +392,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                 <form action="php/faq.php" method="POST" id="xs-contact-form" class="xs-form">
-                            <input required type="text" class="form-control" name="name" placeholder="Name" id="xs_contact_name">
+                            <input required type="text" class="form-control" name="clientName" placeholder="Name" id="xs_contact_name">
                             <input required  type="email" class="form-control" name="email" placeholder="Email" id="xs_contact_email">
                             <input required type="text" class="form-control" name="phone_number" placeholder="Contact Number" id="xs_contact_email">
 
-                     <! --Adding Radio button -->
+                     <!-- Adding Radio button -->
                      <div class="form-group">
                         <label>Request Phone Call?:</label> <br>
                         <input type="radio" value="Yes" name="call">
@@ -405,15 +405,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <label for="No">No</label><br>
                     </div>
 
-                            <textarea required name="message" placeholder="Your Question" id="x_contact_massage" class="form-control message-box" cols="30" rows="10"></textarea>
+                            <textarea required name="rq-message" placeholder="Your Question" id="x_contact_massage" class="form-control message-box" cols="30" rows="10"></textarea>
                            <div class="readmore text-center">
               <button class="main-btn btn-1 btn-1e">SEND QUESTION</button>
             </div>
-
-
-                        </form>
-
-
+        </form>
               </div>
             </div>
           </div>

@@ -13,7 +13,7 @@
     $claddingPerim = $_POST['claddingPerim'];
     $deckingPerim = $_POST['deckingPerim'];
     $mainMessage = $_POST['rq-message'];
-    $to = "webdev@aggtedeck.com";
+    $to = "quote@aggtedeck.com";
     $clientName = $_POST['clientName'];
     $phone = $_POST['phone_number'];
     $subject = "New Product Quotation from $clientName!"; 

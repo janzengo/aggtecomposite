@@ -4,12 +4,12 @@
 <?php
 ini_set('SMTP','smtp.gmail.com');
 ini_set('smtp_port', 465);
-ini_set('sendmail_from','jjanzen.go@gmail.com');
+ini_set('sendmail_from','info@aggtedeck.com');
 //Variable Declaraton
 
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $to_email = "jjanzen.go@gmail.com";
+    $to_email = "info@aggtedeck.com";
     $subject = $_POST['subject'];
     $phoneNumber = $_POST['phone_number'];
     $call = $_POST['call'];

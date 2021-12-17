@@ -283,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <textarea name="req-message" placeholder="Message" id="x_contact_massage" class="form-control message-box" cols="30" rows="10" required></textarea>
  <div class="readmore text-center">
-              <button class="main-btn btn-1 btn-1e"><input class="form-submit" type="submit" placeholder="SEND">
+              <button class="main-btn btn-1 btn-1e"><input class="form-submit" name="submit" type="submit" placeholder="SEND">
             </div>
                     </form>
     </div>

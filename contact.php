@@ -253,7 +253,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h3>Drop <span>your message</span></h3>
 
       </div>
-<form action="products/formphp/contacts.php" method="POST" id="xs-contact-form" class="xs-form">
+<form action="php/contacts.php" method="POST" id="xs-contact-form" class="xs-form">
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="text" class="form-control" name="clientName" placeholder="Your name" id="xs_contact_name" required>
@@ -281,7 +281,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                         </div>
 
-                        <textarea name="req-message" placeholder="Message" id="x_contact_massage" class="form-control message-box" cols="30" rows="10" required></textarea>
+                        <textarea name="rq-message" placeholder="Message" id="x_contact_massage" class="form-control message-box" cols="30" rows="10" required></textarea>
  <div class="readmore text-center">
               <button class="main-btn btn-1 btn-1e"><input class="form-submit" name="submit" type="submit" placeholder="SEND">
             </div>

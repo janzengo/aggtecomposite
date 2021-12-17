@@ -11,7 +11,7 @@
     $to = "info@aggtedeck.com";
     $clientName = $_POST['clientName'];
     $phone = $_POST['phone_number'];
-    $subject = "New Product Quotation from $clientName!"; 
+    $subject = "New Inquiry from $clientName!"; 
     $from = $_POST['email']; 
     $radioSelection = $_POST['call'];
     $message = "From: $from\n" . "Client Name: $clientName \n" . "Client Contact Number: $phone \n" . "Call: $radioSelection \n";

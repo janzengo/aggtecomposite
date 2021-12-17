@@ -10,7 +10,7 @@
     $to = "info@aggtedeck.com";
     $clientName = $_POST['clientName'];
     $phone = $_POST['phone_number'];
-    $subject = "New Product Quotation from $clientName!"; 
+    $subject = "New Inquiry from $clientName!"; 
     $from = $_POST['email']; 
     $headers = "From: $from";
     $radioSelection = $_POST['call'];

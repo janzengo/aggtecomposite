@@ -107,7 +107,9 @@ To give you an idea of our prevailing product prices, kindly follow this link an
 <link href="css/modal-designs.css" rel="stylesheet">
 <link href="css/jquery.fancybox.css" rel="stylesheet">
 <link href="css/style_slider.css" rel="stylesheet">
-
+<style>
+  .form-submit {background: none; text-transform: uppercase;}
+</style>
 <!-- Canonical -->
 
 <link rel=“canonical” href=“https://www.aggtedeck.com/faq” />
@@ -391,7 +393,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-                <form action="php/faqs.php" method="POST" id="xs-contact-form" class="xs-form">
+                <form action="products/formphp/faqs.php" method="POST" id="xs-contact-form" class="xs-form">
                             <input required type="text" class="form-control" name="clientName" placeholder="Name" id="xs_contact_name">
                             <input required  type="email" class="form-control" name="email" placeholder="Email" id="xs_contact_email">
                             <input required type="text" class="form-control" name="phone_number" placeholder="Contact Number" id="xs_contact_email">
@@ -407,7 +409,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                             <textarea required name="rq-message" placeholder="Your Question" id="x_contact_massage" class="form-control message-box" cols="30" rows="10"></textarea>
                            <div class="readmore text-center">
-                    <input style="display: none" value="Confirm" name="submit"><button disabled class="main-btn btn-1 btn-1e">NOT WORKING YET</button>
+                           <button class="main-btn btn-1 btn-1e"><input class="form-submit" name="submit" type="submit" placeholder="SEND">
             </div>
         </form>
               </div>

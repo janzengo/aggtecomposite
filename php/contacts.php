@@ -6,7 +6,7 @@
     if(isset($_POST['submit'])){
    
     //array initializations
-    $mainMessage = $_POST['rq-message'];
+    $mainMessage = $_POST['req-message'];
     $to = "info@aggtedeck.com";
     $clientName = $_POST['clientName'];
     $phone = $_POST['phone_number'];

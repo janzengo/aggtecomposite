@@ -407,7 +407,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                             <textarea required name="rq-message" placeholder="Your Question" id="x_contact_massage" class="form-control message-box" cols="30" rows="10"></textarea>
                            <div class="readmore text-center">
-                    <input style="display: none" value="Confirm" name="submit"><button class="main-btn btn-1 btn-1e">SEND QUESTION</button>
+                    <input style="display: none" value="Confirm" name="submit"><button disabled class="main-btn btn-1 btn-1e">NOT WORKING YET</button>
             </div>
         </form>
               </div>

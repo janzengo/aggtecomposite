@@ -279,7 +279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <textarea name="req-message" placeholder="Message" id="x_contact_massage" class="form-control message-box" cols="30" rows="10" required></textarea>
  <div class="readmore text-center">
-              <input type="submit" style="display: none;"><button class="main-btn btn-1 btn-1e">SEND MESSAGE</button></input>
+              <input type="submit" style="display: none;"><button disabled class="main-btn btn-1 btn-1e">NOT WORKING YET</button></input>
             </div>
                     </form>
     </div>

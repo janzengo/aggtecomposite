@@ -1,5 +1,5 @@
 <style>
-    .preloader{position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:99999999; background-color:#ffffff; background-position:center center;	background-repeat:no-repeat; background-image:url(../images/preloader2.gif);}
+    .preloader{position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:99999999; background-color:#ffffff; background-position:center center;	background-repeat:no-repeat; background-image:url(../../images/preloader.gif);}
 </style>
 <!-- Mail Email -->
 <?php 
@@ -23,7 +23,7 @@
         session_destroy();
         echo "<script>
             window.setTimeout(function() {
-            window.location.href='../faq.php';
+            window.location.href='../../faq.php';
             }, 2000);
             </script>";
 	} else { 

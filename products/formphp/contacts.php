@@ -23,7 +23,7 @@
         session_destroy();
         echo "<script>
             window.setTimeout(function() {
-            window.location.href='../contacts.php';
+            window.location.href='../../contacts.php';
             }, 2000);
             </script>";
 	} else { 

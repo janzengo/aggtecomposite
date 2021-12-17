@@ -56,6 +56,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel=“canonical” href=“https://www.aggtedeck.com/contact” />
 
+<!-- Style -->
+<style>
+  .form-submit {background: none; text-transform: uppercase;}
+</style>
 <!-- Local Schema -->
 <script type="application/ld+json">
 {
@@ -252,7 +256,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <form action="php/contacts.php" method="POST" id="xs-contact-form" class="xs-form">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="name" placeholder="Your name" id="xs_contact_name" required>
+                                <input type="text" class="form-control" name="clientName" placeholder="Your name" id="xs_contact_name" required>
                             </div>
                             <div class="col-md-6">
                                 <input type="email" class="form-control invaild" name="email" placeholder="Your email" id="xs_contact_email" required>
@@ -279,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <textarea name="req-message" placeholder="Message" id="x_contact_massage" class="form-control message-box" cols="30" rows="10" required></textarea>
  <div class="readmore text-center">
-              <input type="submit" style="display: none;"><button disabled class="main-btn btn-1 btn-1e">NOT WORKING YET</button></input>
+              <button class="main-btn btn-1 btn-1e"><input class="form-submit" type="submit" placeholder="SEND">
             </div>
                     </form>
     </div>
@@ -292,13 +296,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-
+<!--
   <div class="xs-map-sec">
     <div class="xs-maps-wraper">
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1628.405669249255!2d120.9221304570701!3d13.897559991607046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0b9fbd9bd213%3A0x8cdd89241f920e88!2sAGGTEDEck%20Composite%20Cladding%20%26%20Decking!5e0!3m2!1sen!2sph!4v1618574107701!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-    </div>
+    </div>--> 
 </div>
     <!--footer-sec-start-->
       <?php include 'footer.php'; ?>

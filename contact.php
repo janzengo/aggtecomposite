@@ -253,7 +253,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h3>Drop <span>your message</span></h3>
 
       </div>
-<form action="php/contacts.php" method="POST" id="xs-contact-form" class="xs-form">
+<form action="products/formphp/contacts.php" method="POST" id="xs-contact-form" class="xs-form">
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="text" class="form-control" name="clientName" placeholder="Your name" id="xs_contact_name" required>

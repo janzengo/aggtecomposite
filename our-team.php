@@ -206,7 +206,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="link-wrap"> <a href="https://www.facebook.com/dimplefevz" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/AggDimple?s=07&fbclid=IwAR0v9SwzJYfutqcqk7hxxCU3zbawwDlBfhczIdiAX_C5WF4bABqBVvSw9gA" target="_blank"><i class="fa fa-twitter"></i></a> </div>
             </div>
           </li>
-          <li>
+          <!--<li>
             <div class="teamWrap"> <img src="images/team2.png" class="img-responsive" alt="img1">
               <div class="caption">
                 <h3>Arnel Go </h3>
@@ -214,7 +214,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <div class="link-wrap"> <a href="https://www.facebook.com/arniel.go/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/arnelbgo" target="_blank"><i class="fa fa-twitter"></i></a> </div>
             </div>
-          </li>
+          </li>-->
             <li>
             <div class="teamWrap"> <img src="images/team3.png" class="img-responsive" alt="img1">
               <div class="caption">
@@ -224,7 +224,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="link-wrap"> <a href="https://www.facebook.com/profile.php?id=100048900524366&sk" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/maderandawayf " target="_blank"><i class="fa fa-twitter"></i></a> </div>
             </div>
           </li>
-            <li>
+          <!--<li>
             <div class="teamWrap"> <img src="images/team4.png" class="img-responsive" alt="img1">
               <div class="caption">
                 <h3>Andrew Mañibo </h3>
@@ -233,7 +233,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <div class="link-wrap"><a href="https://www.facebook.com/andrew.man24" target="_blank"><i class="fa fa-facebook"></i></a></div>
             </div>
-          </li>
+          </li>-->
         </ul>
       </div>
     </div>

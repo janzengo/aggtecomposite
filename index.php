@@ -37,6 +37,7 @@ src="https://www.facebook.com/tr?id=198102358516938&ev=PageView&noscript=1"
 <link class="logoicon" rel="shortcut icon" href="favicon.ico">
 <!-- Style CSS -->
 <link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/upgrade.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/custom.css" rel="stylesheet">
 <link rel="stylesheet" href="dist/color-default.css">
@@ -46,7 +47,6 @@ src="https://www.facebook.com/tr?id=198102358516938&ev=PageView&noscript=1"
 <link href="css/jquery.fancybox.css" rel="stylesheet">
 <link href="css/style_slider.css" rel="stylesheet">
 <link href="css/modal-designs.css" rel="stylesheet">
-
 <!-- Canonical -->
 
 <link rel=“canonical” href=“https://www.aggtedeck.com” />
@@ -119,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="page-wrapper">
   <!--preloader start-->
-<div class="preloader">
+<div id="preloader" class="preloader">
 </div>
 <script
         src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -610,6 +610,7 @@ Remember, when it comes to your <a target="_blank" href="https://aquaponicsgogre
 <!--scroll-to-top end-->
 
 <!--j query start-->
+
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
@@ -630,6 +631,16 @@ Remember, when it comes to your <a target="_blank" href="https://aquaponicsgogre
             }
 
       </script>
+<script>
+    $(document).ready(function() {
+        $('#preload').load(function() {
+        });
+    });
+	$(window).load(function(){
+	$( "#invis" ).animate({ opacity: 1 }, 1000);
+    $('.preloader').fadeOut(500);
+});
+</script>
 <!--j query end-->
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->

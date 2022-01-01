@@ -100,7 +100,7 @@ To give you an idea of our prevailing product prices, kindly follow this link an
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="dist/color-default.css">
-
+<link href="css/upgrade.css" rel="stylesheet">
 <link href="css/magnific-popup.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
 <link href="css/owl.css" rel="stylesheet">
@@ -127,7 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--Load Facebook SDK for JavaScript End Here-->
 <div class="page-wrapper">
   <!--preloader start-->
-<div class="preloader">
+<div id="preloader" class="preloader">
 </div>
 <script
         src="https://code.jquery.com/jquery-3.1.1.slim.min.js"

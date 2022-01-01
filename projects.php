@@ -41,6 +41,7 @@
       <link class="logoicon" rel="shortcut icon" href="favicon.ico">
       <!-- Style CSS -->
       <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/upgrade.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
       <link rel="stylesheet" href="dist/color-default.css">
       <link href="css/magnific-popup.css" rel="stylesheet">
@@ -110,7 +111,7 @@
       <!--Load Facebook SDK for JavaScript End Here-->
       <div class="page-wrapper">
          <!--preloader start-->
-         <div class="preloader"></div>
+         <div id="preloader" class="preloader"></div>
          <script
             src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
             integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="

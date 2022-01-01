@@ -21,16 +21,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <!-- Style CSS -->
-<link href="../css/bootstrap.css" rel="stylesheet">
-<link href="../css/style.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/upgrade.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="../dist/color-default.css">
 <link rel="stylesheet" href="../dist/color-switcher.css">
-<link href="../css/magnific-popup.css" rel="stylesheet">
-<link href="../css/animate.css" rel="stylesheet">
-<link href="../css/owl.css" rel="stylesheet">
-<link href="../css/jquery.fancybox.css" rel="stylesheet">
-<link href="../css/style_slider.css" rel="stylesheet">
-<link href="../rs-plugin/css/settings.css" rel="stylesheet">
+<link href="css/magnific-popup.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="/css/owl.css" rel="stylesheet">
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<link href="css/style_slider.css" rel="stylesheet">
+<link href="rs-plugin/css/settings.css" rel="stylesheet">
 </head>
 <body>
 
@@ -41,7 +42,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="page-wrapper">
   <!--preloader start-->
-  <div class="preloader"></div>
+  <div id="preloader" class="preloader"></div>
   <!--preloader end-->
 
   <!--inner content start-->

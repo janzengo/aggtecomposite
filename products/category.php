@@ -36,6 +36,7 @@
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
+	z-index: 1;
 }
 
 .my-float{
@@ -47,6 +48,7 @@ a.float + div.label-container {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s ease;
+  z-index: 1;
 }
 
 a.float:hover + div.label-container{
@@ -143,6 +145,15 @@ a.float:hover + div.label-container{
                         $pdo->close();
                       ?>
                     </select>
+					<?php
+	        			if(isset($_SESSION['cart'])){
+							if(count($_SESSION['cart']) != 0) {
+							echo"
+								<a class='buttonProdViewUpper' data-dismiss='modal' aria-label='Close' data-toggle='modal' data-target='.prodModal'><i class='fa fa-list'></i> View Products for Quotation</a>
+	        					";
+							}
+						}
+	        		?>
                   </div>
                 </form>
               </div><br><br>
@@ -188,6 +199,7 @@ a.float:hover + div.label-container{
 							if(count($_SESSION['cart']) != 0) {
 							echo"
 								<a class='buttonProdView' data-dismiss='modal' aria-label='Close' data-toggle='modal' data-target='.prodModal'><i class='fa fa-list'></i> View Products for Quotation</a>
+								
 								<a class='float' data-dismiss='modal' aria-label='Close' data-toggle='modal' data-target='.prodModal'>
 						<i class='fa fa-shopping-cart my-float' style='font-size: 30px;'></i>
 						</a>

@@ -177,7 +177,8 @@ a:active,
 a:focus {
   outline: none;
   text-decoration: none;
-  color: #d5fff7;
+  transition: ease all .3s;
+  color: rgb(90, 196, 69);
 }
 /* Page Header */
 .page-header {

@@ -59,6 +59,25 @@
   }
 }
 
+.buttonProdViewUpper {
+    background-color: #2ba52b;
+    border: none;
+    color: white;
+    padding: 15px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+@media only screen and (max-width: 767px) {
+  .buttonProdViewUpper {
+    display: none;
+}
+}
+
 .buttonProdView {
     background-color: #2ba52b;
     border: none;

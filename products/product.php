@@ -57,6 +57,7 @@ a.float + div.label-container {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s ease;
+  z-index: 9999;
 }
 
 a.float:hover + div.label-container{

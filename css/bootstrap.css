@@ -1044,7 +1044,8 @@ a {
 	text-decoration: none
 }
 a:focus, a:hover {
-	color: #d5fff7;
+	transition: ease all .3s;
+	color: rgb(90, 196, 69);
 	text-decoration: underline
 }
 a:focus {

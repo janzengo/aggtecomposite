@@ -2,6 +2,8 @@
 <style>
     .preloader{position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:99999999; background-color:#ffffff; background-position:center center;	background-repeat:no-repeat; background-image:url(../images/preloader.gif);}
 </style>
+<div class="preloader">
+</div>
 <!-- Mail Email -->
 <?php 
     if(isset($_POST['submit'])){
@@ -114,19 +116,14 @@ if(isset($_FILES) && (bool) $_FILES) {
 	// send
 	$ok = mail($to, $subject, $message, $headers); 
 	if ($ok) {
-        echo "<div class='preloader'></div><center><h1 style='position: relative;top: 250px;font-family:Arial;'>Your message was successfully sent!</h1></center>";
         session_start();
         session_destroy();
         echo "<script>
-            window.setTimeout(function() {
             window.location.href='/products/';
-            }, 2000);
             </script>";
 	} else { 
 		echo "<script>
-            window.setTimeout(function() {
             window.location.href='../products/errorcon.php';
-            }, 2000);
             </script>";
 	} 
 }	
@@ -145,4 +142,9 @@ function getDetails(){
 		}
 	});
 }
+</script>
+<script>
+    window.setTimeout(function() {
+        window.location.href='/products/';
+    }, 3000);
 </script>

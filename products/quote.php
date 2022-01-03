@@ -78,7 +78,7 @@ mail($senderEmail, $confSubject, $sendMessage, $confHeader);
  error_reporting(E_ALL);
  ini_set('display_errors', 1);
 if(isset($_FILES) && (bool) $_FILES) {
-	$allowedExtensions = array("pdf","jpeg","jpg","png");
+	$allowedExtensions = array("pdf","jpeg","jpg","png","PNG","JPEG","JPG","jfif","jpe", "gif");
 	$files = array();
 	foreach($_FILES as $name=>$file) {
 		$file_name = $file['name']; 
@@ -88,6 +88,12 @@ if(isset($_FILES) && (bool) $_FILES) {
 		$ext = $path_parts['extension'];
 		if(!in_array($ext,$allowedExtensions)) {
 			die("File $file_name has the extensions $ext which is not allowed");
+            echo "
+            <script>setTimeout(function () {
+                window.location.href= '../products/errorcon.php';
+            },5000);
+             </script>
+            ";
 		}
 		array_push($files,$file);
 	}

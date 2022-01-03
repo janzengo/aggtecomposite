@@ -6,7 +6,7 @@
 		
 		$conn = $pdo->open();
 
-		$stmt = $conn->prepare("SELECT * FROM users WHERE id=:id");
+		$stmt = $conn->prepare("SELECT * FROM subscription WHERE id=:id");
 		$stmt->execute(['id'=>$id]);
 		$row = $stmt->fetch();
 		

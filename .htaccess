@@ -17,3 +17,4 @@ RewriteRule ^/?(.*)\.php$ /$1 [NC,L,QSA,R=301]
    Header set Strict-Transport-Security "max-age=31536000"
    Header unset X-Powered-By
 </IfModule>
+Options All -Indexes

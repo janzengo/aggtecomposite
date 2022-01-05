@@ -52,6 +52,7 @@ Table Of Index
 **********************************************************/
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap.');
 @import url('font-awesome.css');
 @import url('animate.css');
 * {margin:0px; padding:0px;	border:none; outline:none;}
@@ -300,6 +301,7 @@ border-right:.3em solid transparent; border-left:.3em solid transparent;}
 .warranty-content{height: 400px;}
 .warranty-content{overflow-y: auto}
 .modal-md-4{overflow-y: initial} 
+
 /*********************************************************
 					privacy-modal
 **********************************************************/
@@ -330,9 +332,38 @@ border-right:.3em solid transparent; border-left:.3em solid transparent;}
 .modal-md-4{overflow-y: initial} 
 
 /*********************************************************
+					subscription-modal
+**********************************************************/
+.bs-example-modal-md-5 h2{font-size:16px; line-height:16px; padding:15px; color:#fff; font-weight:bold; margin:0; background:#228b22; text-align:center}
+.bs-example-modal-md-5 .login-form{padding:30px; overflow:hidden;}
+.bs-example-modal-md-5 .login-form fieldset{overflow:hidden;}
+.bs-example-modal-md-5 .login-form .form-group{position:relative; float:left; width:100%;}
+.bs-example-modal-md-5 .login-form .form-group i{position:absolute; top:8px; left:0; width:38px; line-height:30px; color:#272727; text-align:center; border-right:1px solid #ebebeb;}
+.bs-example-modal-md-5 .login-form .form-group input[type="email"] {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:1px solid #e1e1e1;    color:#959595; display:inline-block; vertical-align:middle; font-weight:400; font-size:14px; line-height:37px; width:100%; height:47px; outline:none; padding:4px 6px; background:#fff; box-shadow:none; border-radius:0;}
+.bs-example-modal-md-5 .login-form .form-group input[type="text"]{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:1px solid #e1e1e1; color:#959595; display:inline-block; vertical-align:middle; font-weight:400; font-size:14px; line-height:37px; width:100%; height:47px; outline:none; padding:4px 6px; background:#fff; box-shadow:none; border-radius:0;}
+.bs-example-modal-md-5 .login-form .form-group input[type="password"]{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:1px solid #e1e1e1; color:#959595; display:inline-block; vertical-align:middle; font-weight:400; font-size:14px; line-height:37px; width:100%; height:47px; outline:none; padding:4px 6px; background:#fff; box-shadow:none; border-radius:0;}
+.bs-example-modal-md-5 .login-form .form-group textarea{min-height:100px; max-height:100px}
+.bs-example-modal-md-5 .login-form .form-group label{float:left;}
+.bs-example-modal-md-5 .login-form .form-group label input[type="checkbox"], form .form-group label em{display:inline-block; vertical-align:middle; margin:0; font-style:normal;    line-height:16px;}
+.bs-example-modal-md-5 .login-form .forgetpassword{float:right; color:#272727;}
+.bs-example-modal-md-5 .login-form .form-group .forgetpassword i, .forgetpassword em{display:inline-block; vertical-align:middle; position:static; border:0; padding:0; margin:0;
+ font-style:normal;}
+.bs-example-modal-md-5 .login-form .form-group .forgetpassword i, .forgetpassword em{display:inline-block; vertical-align:middle; position:static; border:0; padding:0; margin:0; font-style:normal;}
+.bs-example-modal-md-5 .tg-theme-btn-lg{width:100%;}
+.bs-example-modal-md-5 .tg-theme-btn{display:inline-block; text-align:center; font-size:14px; line-height:50px; color:#fff; background:#272727; text-transform:uppercase; padding:0 50px;}
+.bs-example-modal-md-5 p{color:#272727;    width: 100%; text-align: justify; padding-left: 50px;padding-right: 50px;}
+.bs-example-modal-md-5 p .btn{font-size:14px; color:#000; text-decoration:none; padding:0px; color:#fff; background-color:transparent; border-color:transparent;}
+.bs-example-modal-md-5 p .btn:focus{background:none; outline:none; outline-offset:inherit;}
+.sample-description{margin: 10px 15px;}
+.privacy-content{height: 400px;}
+.privacy-content{overflow-y: auto}
+.privacy-content {text-align: left;}
+.modal-md-4{overflow-y: initial} 
+
+/*********************************************************
 				login-modal
 **********************************************************/
-.top_links{font-size:14px; text-align:right; padding:10px;}
+.top_links{font-size:14px; text-align:right; padding:10px;background-color: white;border-radius: 6px;}
 .bs-example-modal-md-1 h2{font-size:16px; line-height:16px; padding:15px; color:#fff; font-weight:bold; margin:0; background:#228b22; text-align:center}
 .bs-example-modal-md-1 .login-form{padding:30px; overflow:hidden;}
 .bs-example-modal-md-1 .login-form fieldset{overflow:hidden;}
@@ -376,6 +407,61 @@ border-right:.3em solid transparent; border-left:.3em solid transparent;}
 .bs-example-modal-md p .btn:focus{background:none; outline:none; outline-offset:inherit;}
 
 /*********************************************************
+				   subscription-modal
+**********************************************************/
+.bs-example-modal-mds h2{font-size:16px; line-height:16px; padding:15px; color:#fff; font-weight:bold; margin:0; background:#228b22; text-align:center}
+.bs-example-modal-mds .login-form{padding:30px; overflow:hidden;}
+.bs-example-modal-mds .login-form fieldset{overflow:hidden;}
+.bs-example-modal-mds .login-form .form-group{position:relative; float:left; width:100%;}
+.bs-example-modal-mds .login-form .form-group i{position:absolute; top:8px; left:0; width:38px; line-height:30px; color:#272727; text-align:center; border-right:1px solid #ebebeb;}
+.bs-example-modal-mds .login-form .form-group input[type="email"] {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:1px solid #e1e1e1;    color:#959595; display:inline-block; vertical-align:middle; font-weight:400; font-size:14px; line-height:37px; width:100%; height:47px; outline:none; padding:4px 6px; background:#fff; box-shadow:none; border-radius:0;}
+.bs-example-modal-mds .login-form .form-group input[type="text"]{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:1px solid #e1e1e1; color:#959595; display:inline-block; vertical-align:middle; font-weight:400; font-size:14px; line-height:37px; width:100%; height:47px; outline:none; padding:4px 6px; background:#fff; box-shadow:none; border-radius:0;}
+.bs-example-modal-mds .login-form .form-group input[type="password"]{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:1px solid #e1e1e1; color:#959595; display:inline-block; vertical-align:middle; font-weight:400; font-size:14px; line-height:37px; width:100%; height:47px; outline:none; padding:4px 6px; background:#fff; box-shadow:none; border-radius:0;}
+.bs-example-modal-mds .login-form .form-group label{float:left;}
+.bs-example-modal-mds .login-form .form-group label input[type="checkbox"], form .form-group label em{display:inline-block; vertical-align:middle; margin:0; font-style:normal;    line-height:16px;}
+.bs-example-modal-mds .login-form .forgetpassword{float:right; color:#272727;}
+.bs-example-modal-mds .login-form .form-group .forgetpassword i, .forgetpassword em{display:inline-block; vertical-align:middle; position:static; border:0; padding:0; margin:0;
+ font-style:normal;}
+.bs-example-modal-mds .login-form .form-group .forgetpassword i, .forgetpassword em{display:inline-block; vertical-align:middle; position:static; border:0; padding:0; margin:0; font-style:normal;}
+.bs-example-modal-mds .tg-theme-btn-lg{width:100%;}
+.bs-example-modal-mds .tg-theme-btn{display:inline-block; text-align:center; font-size:14px; line-height:50px; color:#fff; background:#272727; text-transform:uppercase; padding:0 50px;}
+.bs-example-modal-mds p{line-height:50px; background:#272727; text-align:center; color:#fff; margin:0;}
+.bs-example-modal-mds p .btn{font-size:14px; color:#000; text-decoration:none; padding:0px; color:#fff; background-color:transparent; border-color:transparent;}
+.bs-example-modal-mds p .btn:focus{background:none; outline:none; outline-offset:inherit;}
+
+
+/*********************************************************
+			   privacy-page
+**********************************************************/
+.privacy-policy {
+	width: 80%;
+	margin: auto;
+}
+.privacy-policy .privacy-title{
+	font-family: 'Poppins', sans-serif;
+	margin-top: 50px;
+}
+.privacy-policy .privacy-subtitle{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+
+}
+.privacy-policy p{
+	color: #333;
+}
+.privacy-policy ul{
+	color: #333;
+	text-indent: 10px;
+}
+.privacy-policy .sublist{
+	margin-left: 20px;
+}
+
+
+
+
+
+/*********************************************************
 			   search-button
 **********************************************************/
 .search-button{border:0; font-size:1.5rem; margin:0;  padding:0 .5rem; background:transparent; color:#228b22;}
@@ -393,7 +479,7 @@ border-right:.3em solid transparent; border-left:.3em solid transparent;}
 			   quick-quote (quote-button)
 **********************************************************/	
 .quick-quote{padding:30px 0; position: relative; background:url(../images/qoute-pattern.jpg) repeat;}
-.quick-quote h3{color:#fff;float: right; text-align: center; margin-left:30px;  font-size:26px; font-family: 'Oswald', sans-serif; text-transform:uppercase; margin-top:10px; text-shadow: 0 0 1px rgba(0, 0, 0, 0.36);}
+.quick-quote h3{color:#fff; text-align: center; margin-left:30px;  font-size:26px; font-family: 'Oswald', sans-serif; text-transform:uppercase; margin-bottom:10px; text-shadow: 0 0 1px rgba(0, 0, 0, 0.36);}
 .quick-quote p{color:#FFF; font-size:16px; margin-top:20px;}
 .quick-quote .quote-btn{ text-align:center; margin-top:5px;}
 .quick-quote .quote-btn a{background:#fff; color:#000; font-size:18px; text-transform:uppercase; text-decoration:none; padding:10px 27px; font-weight: bold;}
@@ -446,10 +532,12 @@ border-right:.3em solid transparent; border-left:.3em solid transparent;}
 /*********************************************************
 					  whyWeChoose
 **********************************************************/
+
 .whychoose-wrap{background: #f8fafe; background-size:cover; padding:70px 0;}
 .whychoose-wrap .section-title h3:after{left:0; margin-left:0;}
 .whychoose-wrap .section-title{text-align:left; padding-bottom:15px;}
 .whychoose-wrap .section-title h3{font-size:24px; font-weight:600;}
+.defRow {margin-left: 10px;}
 .whychoose-wrap .section-title h3 span{font-size:40px; margin-bottom:50px; text-transform:uppercase; font-weight:700; line-height:42px;}
 .whychoose-description li{font-size:14px; color:#000; margin-top:12px; position:relative; padding-left:28px;}
 .whychoose-description li:before{content: "\f0a9"; font-family: 'FontAwesome'; position:absolute; top:0; left:0; font-size:18px; color:#228b22;}
@@ -1148,9 +1236,13 @@ padding: 0px !important;
 margin: 0px !important;
 background: #228b22;
 }
+@media only screen and (max-width: 767px) {
+	.main-header .btn-box {right: 90px;}
+}
 	.sec-image {display: none;}
 .main-header .sticky-header .main-menu .navigation>li>a:after{display:none;}
 .main-header .btn-box .brochure-btn{padding: 5px 30px 4px 30px;}
+
 .main-header .logo-outer{text-align:center;}
 .main-menu .navigation>li>a{padding:25px 20px;}
 .search-button{display:none;}
@@ -1185,8 +1277,6 @@ background: #228b22;
 .quick-quote .quote-btn{margin-top:15px; margin-bottom:5px;}
 }
 
-
- 
 @media only screen and (min-width: 768px) {
 .main-menu .navigation > li > ul, .main-menu .navigation > li > ul > li > ul{display:block !important; visibility:hidden; opacity:0;}
 	.sec-image {display: none;}
@@ -1198,7 +1288,7 @@ background: #228b22;
 .sticky-header .main-menu .navigation>li>ul{left:0px; width:100%;}
 .main-header .logo-outer .logo{text-align:center;}
 .main-header .sticky-header .main-menu .navigation>li>a:after{display:inline-block;}
-.main-header .btn-box{position:absolute; top:120px; right:6px ; margin-top:0px; margin-right:0px; z-index:9999}
+.main-header .btn-box{position:absolute; top:45px; right:6px ; margin-top:0px; margin-right:0px; z-index:9999}
 .top-social-icons{float:none; margin-top:5px;}
 .main-menu .navbar-header{position: relative; float:none; display:block; text-align:left; width:100%; padding:13px 0px 13px; right:0px; z-index:12;}
 .main-menu .navbar-collapse{width:100%;}
@@ -1273,6 +1363,19 @@ background: #228b22;
 .login-btn{width:55px;}
 .sticky-header .logo a img{max-width:70%;}
 }
+
+@media only screen and (max-width: 348px){
+	.span_color {
+		margin-top: 5px;
+		right: 5px;
+	}
+}
+@media only screen and (max-width: 374px){
+	.grey {
+		margin-bottom: 5px;
+	}
+}
+
 .sec-image {display: none;}
 
 a {

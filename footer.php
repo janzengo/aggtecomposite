@@ -188,47 +188,6 @@
   </div>
 </div>
 <!--login-modal end-->
-<!--registration-modal start-->
-<div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-md" role="document">
-    <div class="modal-content">
-      <div class="top_links"><a href="#" data-dismiss="modal" aria-label="Close">Close (X)</a></div>
-      <h2 class="modal-title">REGISTRATION FORM</h2>
-      <form class="login-form">
-        <fieldset>
-          <div class="form-group">
-            <input type="text" name="name" class="form-control" placeholder="Username" required data-error="Username is required.">
-          </div>
-          <div class="form-group">
-            <input type="password" name="name" class="form-control" placeholder="Password" required data-error="Password is required.">
-          </div>
-          <div class="form-group">
-            <input type="password" name="name" class="form-control" placeholder="Confirm Password" required data-error="Password is required.">
-          </div>
-          <div class="form-group">
-            <input type="email" name="email" class="form-control" placeholder="Email Address" required data-error="Valid email is required.">
-          </div>
-          <div class="form-group">
-            <input type="text" name="name" class="form-control" placeholder="First Name" required data-error="First Name is required.">
-          </div>
-          <div class="form-group">
-            <input type="text" name="name" class="form-control" placeholder="Last Name" required data-error="Last Name is required.">
-          </div>
-          <div class="form-group">
-            <label>
-              <input type="checkbox" data-error="Last Name is required.">
-              <em>I agree with the terms and conditions</em></label>
-          </div>
-          <button class="tg-theme-btn tg-theme-btn-lg" type="submit">Create an Account</button>
-        </fieldset>
-      </form>
-      <p>Already a Member?
-        <button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-md-1">Login Here</button>
-      </p>
-    </div>
-  </div>
-</div>
-<!--registration-modal end-->
 
     <!--quote-modal start-->
 <div class="modal fade bs-example-modal-md-2 quote-modal" tabindex="-1" role="dialog">
@@ -266,7 +225,7 @@ TripettoChat.run({
   </div>
 </div>
 <!--quote-modal end-->
-      <!--sample-modal start-->
+<!--sample-modal start-->
   <div class="modal fade bs-example-modal-md-3" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-md-3" role="document">
       <div class="modal-content">
@@ -639,8 +598,34 @@ TripettoChat.run({
               <button class="tg-theme-btn tg-theme-btn-lg" type="submit" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-md-2">Get a Quote</button>
     </div>
   </div>
-      </div>
+</div>
 <!--privacy-modal end-->
+
+<!--subscription-modal start-->
+<div class="modalS fade bs-example-modal-mds sub" tabindex="-1" role="dialog" id="subsModal">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content" style="background-image:url(images/subscribe.png)">
+      <div class="top_links"><a href="#" data-dismiss="modal" aria-label="Close">Close (X)</a></div>
+      <h2 class="modal-title">Join Our Newsletter</h2>
+      <label style="margin: 22px 34px 0px 34px;color: #fff;">Please read on, stay posted, subscribe, and we welcome you to tell us what you think.</label>
+      <form class="login-form" action="products/subIndex.php" method="POST">
+        <fieldset>
+        <div class="input-group">
+	                <input type="email" name="userEmail" class="form-control" placeholder="Email" style="padding: 23px 12px !important;" required>
+	                <span class="input-group-btn">
+	                <input type="submit" name="submit" value="Subscribe" class="btn btn-info btn-flat" style="padding: 13px 12px !important;">
+	                </span>
+	            </div>
+              <label style="margin: 22px 34px 0px 34px;color: #fff;font-weight: light !important;">We care about your privacy and won't spam.</label>
+        </fieldset>
+      </form>
+      <p>
+        <button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-primary">No, Thank you!</button>
+      </p>
+    </div>
+  </div>
+</div>
+<!--subscription-modal end-->
 <!-- Cookie Consent -->
-<!--<link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#2e6a11","text":"#ffffff","border":"#b5e1a0"},"button":{"background":"#b5e1a0","text":"#000000"}},"padding":"small","transparency":"15","content":{"href":"https://www.aggtedeck.com/privacy-policy","message":"We use cookies to ensure you get the best experience on our website. By continuing, you are agreeing to our use of cookies. To find out more, please click /n","link":"this link.","button":"Agree"}})});</script>-->
+<link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#2e6a11","text":"#ffffff","border":"#b5e1a0"},"button":{"background":"#b5e1a0","text":"#000000"}},"padding":"small","transparency":"15","content":{"href":"privacy-policy.php","message":"We use cookies to ensure you get the best experience on our website. By continuing, you are agreeing to our use of cookies. To find out more, please click /n","link":"this link.","button":"Agree"}})});</script>
 </html>

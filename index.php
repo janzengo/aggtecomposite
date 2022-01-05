@@ -148,6 +148,17 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
       integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
     <script>
+       function makeUid(length) {
+    var result           = '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * 
+ charactersLength));
+   }
+   return result;
+}
+uCode = makeUid(19);
       $(function () {
         // Cookies
         function setCookie(name, value, days) {
@@ -172,11 +183,12 @@
         }
 
         //        Validate cookie
-        var myCookie = getCookie("MyCookie");
+        var myCookie = getCookie("__prldck");
         if (myCookie == null) {
           //                alert('No cookei');
           $('.preloader').css('display', 'block');
-          setCookie("MyCookie", "foo", 7);
+          $('.trigger').css('display', 'block');
+          setCookie("__prldck", uCode, 7);
         } else {
           //                alert('yes cookei');
           $('.preloader').css('display', 'none');
@@ -205,18 +217,15 @@
     <div class="quick-quote">
       <div class="container">
         <!--Row Start-->
-        <div class="row">
-          <div class="col-md-8">
-            <h3 class="middledes">Looking for a quality materials for your next project?</h3>
-          </div>
-        </div>
+        <h3>Looking for a quality materials for your next project?</h3>
       </div>
-      <div class="slidewrapsample">
-        <div class="quote-btn"><a data-dismiss="modal" aria-label="Close" data-toggle="modal"
-            data-target=".bs-example-modal-md-3" class="brochure-btn theme-btn hvr-link grey">Get a Sample</a><a
-            data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-md-2"
-            class="brochure-btn theme-btn hvr-link">Get a Quote</a></div>
-      </div>
+      <div class="quote-btn"><a
+          style="text-decoration:none; font-size:18px; position:relative; cursor:pointer; -webkit-transition:all 0.5s ease 0s; transition:all 0.5s ease 0s; color:darkgreen!important; border:2px solid #fff; border-radius:0px; font-family:'Oswald', sans-serif; background:none;"
+          data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-md-3"
+          class="brochure-btn theme-btn hvr-link grey">Get a Sample</a><a data-dismiss="modal" aria-label="Close"
+          data-toggle="modal" data-target=".bs-example-modal-md-2" class="brochure-btn theme-btn hvr-link"
+          style="text-decoration:none; font-size:18px; position:relative; cursor:pointer; -webkit-transition:all 0.5s ease 0s; transition:all 0.5s ease 0s; color:darkgreen!important; border:2px solid #fff; border-radius:0px; font-family:'Oswald', sans-serif; background:white;">Get
+          a Quote</a></div>
       <!--Row End-->
 
     </div>
@@ -611,7 +620,7 @@
                 our team or you may <a href="services.php#decking">download our installation guide.</a></p>
             </div>
             <div class="whychoose-description">
-              <ul class="row">
+              <ul class="row defRow">
                 <li class="col-md-6">Expert & Professional </li>
                 <li class="col-md-6">Professional Approach</li>
                 <li class="col-md-6"> High Quality Work</li>
@@ -681,7 +690,9 @@
                   day</span><br>Quick in response and the delivery leadtime was also quick, everything was well prepared
                 and exactly what I'd ordered. Would go to them straight away with future composite material needs.</p>
               <div class="clientInfo">
-                <div class="name">Dondie Prats<span class="white_color">Contractor</span></div>
+                <div class="name">Dondie Prats<span class="white_color">Contractor<a class="trigger"
+                      data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-mds"
+                      id="subButton"></a></span></div>
                 <div class="clearfix"></div>
               </div>
             </div>
@@ -734,12 +745,59 @@
       $('.preloader').fadeOut(500);
     });
   </script>
+
   <!--j query end-->
 
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60704bcd99822b9c"></script>
 
 </body>
+<script>
+  function makeid(length) {
+    var result           = '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * 
+ charactersLength));
+   }
+   return result;
+}
+  $(function () {
+    // Cookies
+    function setCookie(name, value, days) {
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        var expires = "; expires=" + date.toGMTString();
+      } else var expires = "";
 
+      document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    }
+    code = makeid(19);
+    var myCookie = getCookie("__sbmdl");
+    if (myCookie == null) {
+      $(document).ready(function () {
+        setTimeout(function () {
+          document.getElementById('subButton').click();
+        }, 6000);
+      });
+      setCookie("__sbmdl", code, 7);
+    } else {
+      $('#subButton').css('display', 'none');
+    }
+  });
+</script>
 
 </html>

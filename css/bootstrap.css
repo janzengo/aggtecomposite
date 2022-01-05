@@ -4864,17 +4864,6 @@ button.close {
 	-webkit-overflow-scrolling: touch;
 	outline: 0;
 }
-.modalS {
-	position: fixed;
-	top: 110px !important;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 1050;
-	display: none;
-	overflow: hidden;
-	outline: 0;
-}
 .modal.fade .modal-dialog {
 	-webkit-transition: -webkit-transform .3s ease-out;
 	-o-transition: -o-transform .3s ease-out;

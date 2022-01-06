@@ -746,7 +746,6 @@ uCode = makeUid(19);
     });
   </script>
   <!--j query end-->
-  <?php include 'social.php'; ?>
   </body>
 <script>
   function makeid(length) {

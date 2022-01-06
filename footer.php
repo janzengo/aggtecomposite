@@ -60,11 +60,11 @@
           <div class="footer-logo"> <a href="index.php"><img class="footer-logo-default" src="<?php echo $root; ?>/images/footer-logo-default.png" alt="AGGTE Default Logo"> </a> </div>
           <p>Never miss out our latest updates online! Follow us on social media to be on top of the news:</p>
           <ul class="footer-social">
-            <li><a href="https://www.facebook.com/wpc.claddingdecking" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-            <li><a href="https://twitter.com/AggteD" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/aggtedeck" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/aggtedeck" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.pinterest.ph/aggtedeck/" target="_blank"><i class="fa fa-pinterest-square" aria-hidden="true" style="color: darkred"></i></a></li>
+            <li><a href="https://www.facebook.com/wpc.claddingdecking" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/AggteD" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/aggtedeck" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/aggtedeck" target="_blank"><i class="fab fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.pinterest.ph/aggtedeck/" target="_blank"><i class="fab fa-pinterest-square" aria-hidden="true" style="color: darkred"></i></a></li>
           </ul>
             <br>
             <div class="footer-logo">
@@ -114,13 +114,13 @@
             <div class="footer-info">
               <h3 class="footer-title">Contact Us</h3>
               <ul class="footer-adress">
-                <li><i class="fa fa-map-marker"></i><span>Bagong Daan, Diversion Road, Brgy. Cawit, 4208 Taal, Batangas, Philippines</span></li>
-                <li><i class="fa fa-phone"></i><span>Globe 0916 377 0871</span></li>
-                  <li><i class="fa fa-phone"></i><span>Smart 0929 3185482</span></li>
-                  <li><i class="fa fa-phone"></i><span>Landline(043) 740 3512</span></li>
-                  <li><i class="fa fa-envelope-o"></i><span>info@aggtedeck.com</span></li>
-                  <li><i class="fa fa-envelope-o"></i><span>quote@aggtedeck.com</span></li>
-                  <li><i class="fa fa-envelope-o"></i><span>sales@aggtedeck.com</span></li>
+                <li><i class="fab fa-map-marker"></i><span>Bagong Daan, Diversion Road, Brgy. Cawit, 4208 Taal, Batangas, Philippines</span></li>
+                <li><i class="fab fa-phone"></i><span>Globe 0916 377 0871</span></li>
+                  <li><i class="fab fa-phone"></i><span>Smart 0929 3185482</span></li>
+                  <li><i class="fab fa-phone"></i><span>Landline(043) 740 3512</span></li>
+                  <li><i class="fab fa-envelope-o"></i><span>info@aggtedeck.com</span></li>
+                  <li><i class="fab fa-envelope-o"></i><span>quote@aggtedeck.com</span></li>
+                  <li><i class="fab fa-envelope-o"></i><span>sales@aggtedeck.com</span></li>
               </ul>
             </div>
           </div>
@@ -138,7 +138,7 @@
       <div class="row">
         <!--col start-->
        <div class="col-md-6 col-sm-6">
-           <p><a target="_blank" href="https://www.facebook.com/wpc.claddingdecking">&copy; 2021 Aquaponics GoGreen All Rights Reserved</a> <br><span style="font-size: 14px;">Design by <a href="https://www.linkedin.com/in/janzengo" target="_blank">Janzen Go </a><a href="mailto:jjanzen.go@gmail.com"><i class="fa fa-envelope-o"></i></a> from GoTech Web Solutions</span></p>
+           <p><a target="_blank" href="https://www.facebook.com/wpc.claddingdecking">&copy; 2021 Aquaponics GoGreen All Rights Reserved</a> <br><span style="font-size: 14px;"> Design by <a href="https://www.linkedin.com/in/janzengo" target="_blank">Janzen Go</a> <a href="mailto:jjanzen.go@gmail.com"><i class="fas fa-envelope"></i></a> | from GoTech Web Solutions</span></p>
           </div>
         <!--col end-->
         <!--col start-->

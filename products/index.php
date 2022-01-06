@@ -1,5 +1,6 @@
 <html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="css/altModals.css" rel="stylesheet">
 <?php include 'includes/session.php'; ?>
 <div id="preload" class="preloader">
 </div>

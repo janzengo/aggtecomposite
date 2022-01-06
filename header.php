@@ -2,6 +2,7 @@
 <link rel='canonical' href='<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>'>
 <?php $root = '..'; ?>
 <link href="css/custom.css" rel="stylesheet">
+<link href="css/altModals.css" rel="stylesheet">
 <?php include 'modals.php'; ?>
 <header class="main-header">
     <!--header-top start-->

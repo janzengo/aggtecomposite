@@ -393,8 +393,8 @@ uCode = makeUid(19);
           <!--col start-->
           <div class="col-md-3 col-sm-6 col-xs-12 counter-item">
             <div class="counterbox">
-              <div class="counter-icon"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></div>
-              <div class="counter_area"> <span class="counter-number" data-from="1" data-to="84"
+              <div class="counter-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
+              <div class="counter_area"> <span class="counter-number" data-from="1" data-to="230"
                   data-speed="3000">30</span> <span class="counter-text">Happy Customer</span> </div>
             </div>
           </div>
@@ -403,7 +403,7 @@ uCode = makeUid(19);
           <div class="col-md-3 col-sm-6 col-xs-12 counter-item">
             <div class="counterbox">
               <div class="counter-icon"><i class="fa fa-trophy" aria-hidden="true"></i></div>
-              <div class="counter_area_1"> <span class="counter-number" data-from="1" data-to="5"
+              <div class="counter_area_1"> <span class="counter-number" data-from="1" data-to="7"
                   data-speed="4000">88</span> <span class="counter-text">Professional Awards</span></div>
             </div>
           </div>

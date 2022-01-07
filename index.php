@@ -440,13 +440,13 @@ uCode = makeUid(19);
           <!--row start-->
           <ul class="row container-masonry  portfolio-posts grid">
             <!--col start-->
-            <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
-              <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate_a.jpg" alt="img-1">
+            <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
+              <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking_b.jpg" alt="img-5">
                 <div class="caption">
-                  <h3>WPC Gate</h3>
-                  <p>Quezon City, Metro Manila</p>
+                  <h3>WPC Decking</h3>
+                  <p>Taal, Batangas</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/gates/gate_a.jpg" title="WPC Gates"
+                <div class="link-wrap"> <a href="images/gallery/decking/decking_b.jpg" title="WPC Decking"
                     class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
@@ -488,17 +488,17 @@ uCode = makeUid(19);
             </li>
             <!--col end-->
             <!--col start-->
-            <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-              <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking_b.jpg" alt="img-5">
+            <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
+              <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate_a.jpg" alt="img-1">
                 <div class="caption">
-                  <h3>WPC Decking</h3>
-                  <p>Taal, Batangas</p>
+                  <h3>WPC Gate</h3>
+                  <p>Quezon City, Metro Manila</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/decking/decking_b.jpg" title="WPC Decking"
+                <div class="link-wrap"> <a href="images/gallery/gates/gate_a.jpg" title="WPC Gates"
                     class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
-            <!--col end-->
+           <!--col end-->
             <!--col start-->
             <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
               <div class="image-hover-effect-4"> <img src="images/gallery/decking/deckingnew.jpg" alt="img-6">

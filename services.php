@@ -193,11 +193,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="single-service">
             <div class="sec-title" id="sec-title">
-              <h2>Download<span> brochure</span></h2>
+              <h2>Download<span>Section</span></h2>
               <span>Here are some useful documents</span> </div>
             <ul class="brochure-btns">
-              <li><a href="files/Price-List.pdf" class="clearfix" download="product" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Download Pricelist</span> </a></li>
-              <li><a href="files/Product-Brochure.pdf" class="clearfix" download="Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Download Brochure</span></a></li>
+              <li><a href="files/AGGTEDeck_Price-List.pdf" class="clearfix" download="product" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Pricelist</span> </a></li>
+              <li><a href="files/AGGTEDeck_Price-List_Product-Brochure.pdf" class="clearfix" download="Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Product Brochure</span></a></li>
+              <li><a href="files/AGGTEDeck_ground_preparation_guide.pdf" class="clearfix" download="Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Ground Prep. Guide</span></a></li>
+              <li><a href="files/AGGTEDeck_WPC-Deck_Clad_maintenance_guide.pdf" class="clearfix" download="Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Ground Maintenance Guide</span></a></li>
+              <li><a href="files/AGGTEDeck_Co_extrusion-Tech_Spec.pdf" class="clearfix" download="Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Co-Extrusion Profile Datasheet</span></a></li>
+              <li><a href="files/AGGTEDeck_wpc_deck_pre_installation_guidelines.pdf" class="clearfix" download="Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>WPC Pre-Installation Guides</span></a></li>
+              <li><a href="files/AGGTEDeck_wpc_deck_pre_installation_checklist.pdf" class="clearfix" download="Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>WPC Pre-Installation Checklist</span></a></li>
             </ul>
           </div>
         </div>

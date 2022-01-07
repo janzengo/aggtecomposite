@@ -3,47 +3,61 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="description"
-    content="Are you looking for affordable yet quality Composite Wall Cladding / decking for either your home or business?">
-  <meta name="keywords"
-    content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
-  <meta name="author" content="AGGTEDeck Composite Cladding and Decking">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="google-site-verification" content="QvWa1ncmrWdTSHABNu1A6xJ7bIYV3nGcf4pT4y8zjmg" />
-  <!-- Pinterest Metatag -->
-  <meta name="p:domain_verify" content="6f587306ee8b4c60fb96f108aac158ac" />
-  <!-- Pinterest Metatag End -->
-  <meta name="facebook-domain-verification" content="7dwfnme386x93giukotpjrs5ymvjh3" />
-  <!-- Facebook Pixel Code -->
-  <link class="logoicon" rel="shortcut icon" href="../favicon.ico">
-  <script>
-    ! function (f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = '2.0';
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '198102358516938');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=198102358516938&ev=PageView&noscript=1" /></noscript>
-  <!-- End Facebook Pixel Code -->
+  <!-- COMMON TAGS -->
+      <meta charset="utf-8">
+      <title>AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines</title>
+      <!-- Search Engine -->
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="description" content="Are you looking for affordable yet quality Composite Wall Cladding / decking for either your home or business?">
+      <meta name="keywords" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
+      <meta name="image" content="https://www.aggtedeck.com/images/logo3.jpg">
+      <meta name="author" content="AGGTEDeck Composite Cladding and Decking">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="google-site-verification" content="QvWa1ncmrWdTSHABNu1A6xJ7bIYV3nGcf4pT4y8zjmg" />
+            <!-- Schema.org for Google -->
+      <meta itemprop="name" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
+      <meta itemprop="description" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
+      <meta itemprop="image" content="https://www.aggtedeck.com/images/logo3.jpg">
+            <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+      <meta name="og:title" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
+      <meta name="og:description" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
+      <meta name="og:image" content="https://www.aggtedeck.com/images/logo3.jpg">
+      <meta name="og:url" content="https://aggtedeck.com">
+      <meta name="og:site_name" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
+      <meta name="fb:admins" content="198102358516938">
+      <meta name="fb:app_id" content="198102358516938">
+      <meta name="og:type" content="website">
+      <!-- Pinterest Metatag -->
+      <meta name="p:domain_verify" content="6f587306ee8b4c60fb96f108aac158ac" />
+        <!-- Facebook Domain Verification -->
+      <meta name="facebook-domain-verification" content="7dwfnme386x93giukotpjrs5ymvjh3" />
+      <!-- Facebook Pixel Code -->
+      <link class="logoicon" rel="shortcut icon" href="../favicon.ico">
+            <script>
+              ! function (f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function () {
+                  n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+              }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '198102358516938');
+              fbq('track', 'PageView');
+            </script>
+            <noscript><img height="1" width="1" style="display:none"
+                src="https://www.facebook.com/tr?id=198102358516938&ev=PageView&noscript=1" /></noscript>
+        <!-- End Facebook Pixel Code -->
 
   <!-- Fav Icon -->
   <link class="logoicon" rel="shortcut icon" href="favicon.ico">
@@ -60,9 +74,7 @@
   <link href="css/style_slider.css" rel="stylesheet">
   <link href="css/modal-designs.css" rel="stylesheet">
   <!-- Canonical -->
-
   <link rel=“canonical” href=“https://www.aggtedeck.com” />
-
   <!-- Google Tag Manager -->
   <script>
     (function (w, d, s, l, i) {
@@ -82,65 +94,60 @@
   </script>
   <!-- End Google Tag Manager -->
 
-  <!-- Local Schema -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "AGGTEDeck Composite Cladding & Decking",
-      "image": "https://www.aggtedeck.com/images/logo3.jpg",
-      "@id": "https://www.aggtedeck.com/",
-      "url": "https://www.aggtedeck.com/",
-      "telephone": "Globe 0916 377 0871  /  Smart 0929 3185482",
-      "priceRange": "Php 5.00 - Php 920.00",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Bagong Daan, Diversion Road, Barangay Cawit",
-        "addressLocality": "Taal, Batangas",
-        "postalCode": "4208",
-        "addressCountry": "PH"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 13.897579111806225,
-        "longitude": 120.92305571076798
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday"
-        ],
-        "opens": "08:00",
-        "closes": "17:00"
-      },
-      "sameAs": [
-        "https://www.facebook.com/aggtedeck",
-        "https://twitter.com/AggteD",
-        "http://instagram.com/aggtedeck",
-        "https://www.linkedin.com/company/aggtedeck",
-        "https://www.pinterest.ph/aggtedeck",
-        "https://www.aggtedeck.com"
-      ]
-    }
-  </script>
+    <!-- Local Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "AGGTEDeck Composite Cladding & Decking",
+        "image": "https://www.aggtedeck.com/images/logo3.jpg",
+        "@id": "https://www.aggtedeck.com/",
+        "url": "https://www.aggtedeck.com/",
+        "telephone": "Globe 0916 377 0871  /  Smart 0929 3185482",
+        "priceRange": "Php 5.00 - Php 920.00",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Bagong Daan, Diversion Road, Barangay Cawit",
+          "addressLocality": "Taal, Batangas",
+          "postalCode": "4208",
+          "addressCountry": "PH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 13.897579111806225,
+          "longitude": 120.92305571076798
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        "sameAs": [
+          "https://www.facebook.com/aggtedeck",
+          "https://twitter.com/AggteD",
+          "http://instagram.com/aggtedeck",
+          "https://www.linkedin.com/company/aggtedeck",
+          "https://www.pinterest.ph/aggtedeck",
+          "https://www.aggtedeck.com"
+        ]
+      }
+    </script>
 </head>
-
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4S5CH8" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
   <!-- Load Facebook SDK for JavaScript -->
   <?php include 'fbplug.php'; ?>
-
   <!--Load Facebook SDK for JavaScript Ends Here-->
-
   <div class="page-wrapper">
     <!--preloader start-->
     <div id="preloader" class="preloader">
@@ -212,8 +219,6 @@ uCode = makeUid(19);
       </div>
     </div>
     <!--slider end-->
-    <!--slider end-->
-
     <div class="quick-quote">
       <div class="container">
         <!--Row Start-->

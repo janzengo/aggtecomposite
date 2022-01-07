@@ -5,7 +5,7 @@
   left: -25px;
   line-height:40px;
   font-size: 20px;
-  opacity: .25;
+  opacity: 1;
   -webkit-animation: linear social_float_off .3s;
   margin-top: -175px;
   }

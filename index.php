@@ -717,7 +717,6 @@ uCode = makeUid(19);
   <!--scroll-to-top end-->
 
   <!--j query start-->
-
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
@@ -732,6 +731,8 @@ uCode = makeUid(19);
   <script src="js/script.js"></script>
   <script src="js/custom1.js"></script>
   <script src="js/messageCounter.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
   <script type="text/javascript">
     function comfirmFunc() {
       window.open("https://shopee.ph/Wood-Plastic-Composite-(WPC)-SAMPLE-Decking-or-Cladding-i.74758878.4843042912",

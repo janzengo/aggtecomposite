@@ -616,8 +616,7 @@ uCode = makeUid(19);
                 water like other wooden alternatives so it can endure weather conditions and is also easy to maintain.
               </p>
               <br>
-              <p> For more information on the featured products on this site, feel free to reach out to any members of
-                our team or you may <a href="services.php#decking">download our installation guide.</a></p>
+              <p>For additional information on the featured goods on this site, please contact any member of our team or you may <a href="services.php#decking">download our pre-installation guidelines.</a></p>
             </div>
             <div class="whychoose-description">
               <ul class="row defRow">

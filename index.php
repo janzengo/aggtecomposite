@@ -140,6 +140,11 @@
         ]
       }
     </script>
+
+      <!-- Google Tag Manager (noscript) -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8215980706399307"
+     crossorigin="anonymous"></script>
+     
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->

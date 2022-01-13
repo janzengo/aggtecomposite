@@ -3,6 +3,10 @@
 <html lang="en">
 
 <head>
+        <!-- Google Adsense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8215980706399307"
+     crossorigin="anonymous"></script>
+     
   <!-- COMMON TAGS -->
       <meta charset="utf-8">
       <title>AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines</title>
@@ -140,11 +144,6 @@
         ]
       }
     </script>
-
-      <!-- Google Adsense -->
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8215980706399307"
-     crossorigin="anonymous"></script>
-
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -643,8 +642,7 @@ uCode = makeUid(19);
           <!--col start-->
           <div class="col-md-6">
             <div class="about-video-item">
-              <div class="about-video-img"> <img src="images/welcome-1.jpg" alt="thumbnail"> <a href="media/homeVid.mp4"
-                  class="video-play mfp-iframe xs-video"><i class="fa fa-play"></i></a> </div>
+              <div class="about-video-img"> <img src="images/welcome-1.jpg" alt="thumbnail"> <a class="video-play mfp-iframe xs-video" href="media/homeVid.mp4"><i class="fa fa-play"></i></a> </div>
             </div>
           </div>
           <!--col end-->

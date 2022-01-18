@@ -467,5 +467,4 @@ TripettoChat.run({
   </div>
 </div>
 <!--subscription-modal end-->
-
 <!-- Modals End -->

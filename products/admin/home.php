@@ -108,14 +108,14 @@
           <div class="small-box bg-yellow">
             <div class="inner">
               <?php
-                $stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM users");
+                $stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM subscription");
                 $stmt->execute();
                 $urow =  $stmt->fetch();
 
                 echo "<h3>".$urow['numrows']."</h3>";
               ?>
              
-              <p>Number of Users</p>
+              <p>Number of Subscribers</p>
             </div>
             <div class="icon">
               <i class="fa fa-users"></i>

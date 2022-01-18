@@ -5,14 +5,13 @@ $backRoot = '../';
 <!-- Style CSS -->
 <link href="<?php echo $backRoot; ?>css/bootstrap.css" rel="stylesheet">
 <link href="<?php echo $backRoot; ?>css/style.css" rel="stylesheet">
-<link href="<?php echo $backRoot; ?>css/custom.css" rel="stylesheet">
-<link rel="stylesheet" href="dist/color-default.css">
 <link href="<?php echo $backRoot; ?>css/magnific-popup.css" rel="stylesheet">
 <link href="<?php echo $backRoot; ?>css/animate.css" rel="stylesheet">
 <link href="<?php echo $backRoot; ?>css/owl.css" rel="stylesheet">
 <link href="<?php echo $backRoot; ?>css/jquery.fancybox.css" rel="stylesheet">
 <link href="<?php echo $backRoot; ?>css/style_slider.css" rel="stylesheet">
 <link href="<?php echo $backRoot; ?>css/modal-designs.css" rel="stylesheet">
+<link href="<?php echo $backRoot; ?>css/altModals.css" rel="stylesheet">
 
 <!--j query start-->
 <script src="<?php echo $backRoot; ?>js/jquery-2.1.4.min.js"></script>
@@ -29,6 +28,7 @@ $backRoot = '../';
 <script src="<?php echo $backRoot; ?>js/script.js"></script>
 <script src="<?php echo $backRoot; ?>js/custom1.js"></script>
 <script src="<?php echo $backRoot; ?>js/messageCounter.js"></script>
+
     <script type = "text/javascript">
             function comfirmFunc() {
                window.open("https://shopee.ph/Wood-Plastic-Composite-(WPC)-SAMPLE-Decking-or-Cladding-i.74758878.4843042912", '_blank');

@@ -158,7 +158,6 @@
   <!--container end-->
 </footer>
 <!--footer-secn end-->
-<?php include 'modals.php'; ?>
 <!-- Cookie Consent -->
 <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
 <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>

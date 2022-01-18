@@ -192,7 +192,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
 (1, 'admin@admin.com', '$2y$10$TsFzizAkjbVqgJ9zDC3sBOvgqK8ZrpTWPVhL8OVIDJKm/4ZNhgNSm', 1, 'Super', 'Admin', '', '', 'admin.png', 1, '', '', '2021-07-02'),
 (2, 'janzen@admin.com', '$2y$10$d3wOK0yyyuSpsdh.nNpOBeEQiUJcA77vOTIdhpYjhw.kNGEWzbn6i', 1, 'Janzen', 'Go', '', '', 'janzen_profile.jpg', 1, '', '', '2021-07-02'),
-(13, 'jjanzen.go@gmail.com', '$2y$10$UxS7EVvRGWwYnvLpJKXC4OsNpLP7jvUTmBXzculPNBv8FJw/jrzY6', 0, 'Janzen', 'Go', 'Testing', 'Testing', '', 1, '', '', '2022-01-03');
+(3, 'sales@aggtedeck.com', '$2y$10$d3wOK0yyyuSpsdh.nNpOBeEQiUJcA77vOTIdhpYjhw.kNGEWzbn6i', 1, 'AGGTE', 'Sales', '', '', 'janzen_profile.jpg', 1, '', '', '2021-07-02');
 
 --
 -- Indexes for dumped tables

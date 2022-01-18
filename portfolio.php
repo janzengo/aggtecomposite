@@ -5,7 +5,7 @@
   <div class="container-fluid">
     <div class="section-title">
       <h3>OUR RECENT <span>PORTFOLIOS</span></h3>
-      <p><h4>Here's our latest and most commendable projects all throughout the years 2020-2021.</h4></p>
+      <p><h4>Here's our latest and most commendable projects all throughout the years 2020-2022.</h4></p>
     </div>
     <!--row start-->
     <div class="row">

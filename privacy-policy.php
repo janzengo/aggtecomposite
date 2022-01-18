@@ -258,7 +258,7 @@
                         Please note that we may process your personal data without your knowledge or consent, in compliance with the above rules, where this is required or permitted by law.
                     </p><br>
                     <p><strong>Revisions of this Privacy Statement</strong><br>
-                    This Privacy Policy was last updated December 2021. We will post changes on our homepage so that our users will always be informed of what information we need to collect, how we will use it and the circumstances that would merit its use, if any, should there be any changes in our Privacy Policy.
+                    This Privacy Policy was last updated December 2022. We will post changes on our homepage so that our users will always be informed of what information we need to collect, how we will use it and the circumstances that would merit its use, if any, should there be any changes in our Privacy Policy.
                     </p>
     </div>
     <!--Testimonials End-->

@@ -35,7 +35,7 @@
 	    		$mail = new PHPMailer(true);                             
 			    try {
 			        //Server settings
-			        $mail->isSMTP();                                     
+			        $mail->isSMTP();
 			        $mail->Host = 'smtp.hostinger.com';                      
 			        $mail->SMTPAuth = true;                               
 			        $mail->Username = 'quote@aggtedeck.com';     
@@ -58,7 +58,7 @@
 			       
 			        //Content
 			        $mail->isHTML(true);                                  
-			        $mail->Subject = 'ECommerce Site Password Reset';
+			        $mail->Subject = 'Password Reset Request';
 			        $mail->Body    = $message;
 
 			        $mail->send();

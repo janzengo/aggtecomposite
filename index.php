@@ -660,9 +660,17 @@ uCode = makeUid(19);
           <h3 class="white_color">Testimonials</h3>
         </div>
         <ul class="owl-carousel">
+        <li class="item">
+            <div class="testiWrp">
+              <p><span style="font-size: 150%;font-weight: bold">Very Responsive!</span><br>Thank you for being responsive! I'm commending your team for being very careful regarding the product delivery! I appreciate your recommendations, too! Your <strong style="color: lightgreen">Claddings</strong> are perfect, we were so happy!</p>
+              <div class="clientInfo">
+                <div class="name">Daniel Aguilar<span class="white_color">Client</span></div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </li>
           <li class="item">
             <div class="testiWrp">
-
               <p><span style="font-size: 150%;font-weight: bold">Highly recommended</span><br>Thank you! Pleasure making
                 business with you!</p>
               <div class="clientInfo">
@@ -704,6 +712,7 @@ uCode = makeUid(19);
               </div>
             </div>
           </li>
+          
         </ul>
       </div>
     </div>

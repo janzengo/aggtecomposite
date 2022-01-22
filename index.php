@@ -662,7 +662,7 @@ uCode = makeUid(19);
         <ul class="owl-carousel">
         <li class="item">
             <div class="testiWrp">
-              <p><span style="font-size: 150%;font-weight: bold">Very Responsive!</span><br>Thank you for being responsive! I'm commending your team for being very careful regarding the product delivery! I appreciate your recommendations, too! Your <strong style="color: lightgreen">Claddings</strong> are perfect, we were so happy!</p>
+              <p><span style="font-size: 150%;font-weight: bold">Very Responsive!</span><br>Thank you for being responsive and commending your team for very careful delivery! Appreciate your recommendations too! Your claddings are perfect! We're so happy!</p>
               <div class="clientInfo">
                 <div class="name">Daniel Aguilar<span class="white_color">Client</span></div>
                 <div class="clearfix"></div>

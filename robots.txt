@@ -1,3 +1,5 @@
+
+<?php include("reversedns.php"); ?>
 User-agent: *
 Disallow: /products/login.php
 Disallow: /products/logout.php

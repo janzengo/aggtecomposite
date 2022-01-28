@@ -8,12 +8,6 @@ RewriteRule ^(.*[^0-9])$ $1.php
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /((?!products)[^.]+)\.php
 RewriteRule ^/?(.*)\.php$ /$1 [NC,L,QSA,R=301]
 
-# Protect Robot File
-RewriteEngine On
-RewriteCond %{http_user_agent} !(googlebot|Msnbot|Slurp) [NC]
-RewriteRule ^robots\.txt$ http://seo.i-connector.com/  [R,NE,L]
-AddHandler application/x-httpd-php .txt
-
 # As Suggested by patchstack.com
 <IfModule mod_headers.c>
    Header set Referrer-Policy "strict-origin-when-cross-origin"

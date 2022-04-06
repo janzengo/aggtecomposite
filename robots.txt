@@ -1,3 +1,4 @@
+Sitemap: https://www.aggtedeck.com/sitemap.xml
 User-agent: *
 Disallow: /products/login.php
 Disallow: /products/logout.php
@@ -26,4 +27,3 @@ Disallow: /products/plugins/
 Disallow: /products/recaptcha/
 Disallow: /products/tcpdf/
 Disallow: /products/vendor/
-Sitemap: https://www.aggtedeck.com/sitemap.xml

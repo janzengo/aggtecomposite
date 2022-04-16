@@ -555,7 +555,7 @@
               <h3>WPC Decking</h3>
               <p>Camp Aurora Lumban Laguna</p>
             </div>
-            <div class="link-wrap"> <a href="images/gallery/decking/newdecking4.jpg" title="Accent Cladding" class="lightbox-image"><i class="fa fa-search"></i></a>  </div>
+            <div class="link-wrap"> <a href="images/gallery/decking/newdecking4.jpg" title="WPC Decking" class="lightbox-image"><i class="fa fa-search"></i></a>  </div>
           </div>
         </li>
         <!--col end-->

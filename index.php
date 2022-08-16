@@ -1,67 +1,65 @@
-<?php if (isset($_SESSION['C_ID']))?>
+<?php if (isset($_SESSION['C_ID'])) ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-        <!-- Google Adsense -->
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8215980706399307"
-     crossorigin="anonymous"></script>
-     
+  <!-- Google Adsense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8215980706399307" crossorigin="anonymous"></script>
+
   <!-- COMMON TAGS -->
-      <meta charset="utf-8">
-      <title>AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines</title>
-      <!-- Search Engine -->
-      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-      <meta name="description" content="Are you looking for affordable yet quality Composite Wall Cladding / decking for either your home or business?">
-      <meta name="keywords" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
-      <meta name="image" content="https://www.aggtedeck.com/images/logo3.jpg">
-      <meta name="author" content="AGGTEDeck Composite Cladding and Decking">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <meta name="google-site-verification" content="QvWa1ncmrWdTSHABNu1A6xJ7bIYV3nGcf4pT4y8zjmg" />
-            <!-- Schema.org for Google -->
-      <meta itemprop="name" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
-      <meta itemprop="description" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
-      <meta itemprop="image" content="https://www.aggtedeck.com/images/logo3.jpg">
-            <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-      <meta name="og:title" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
-      <meta name="og:description" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
-      <meta name="og:image" content="https://www.aggtedeck.com/images/logo3.jpg">
-      <meta name="og:url" content="https://aggtedeck.com">
-      <meta name="og:site_name" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
-      <meta name="fb:admins" content="198102358516938">
-      <meta name="fb:app_id" content="198102358516938">
-      <meta name="og:type" content="website">
-      <!-- Pinterest Metatag -->
-      <meta name="p:domain_verify" content="6f587306ee8b4c60fb96f108aac158ac" />
-        <!-- Facebook Domain Verification -->
-      <meta name="facebook-domain-verification" content="7dwfnme386x93giukotpjrs5ymvjh3" />
-      <!-- Facebook Pixel Code -->
-      <link class="logoicon" rel="shortcut icon" href="../favicon.ico">
-            <script>
-              ! function (f, b, e, v, n, t, s) {
-                if (f.fbq) return;
-                n = f.fbq = function () {
-                  n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq) f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = '2.0';
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-              }(window, document, 'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '198102358516938');
-              fbq('track', 'PageView');
-            </script>
-            <noscript><img height="1" width="1" style="display:none"
-                src="https://www.facebook.com/tr?id=198102358516938&ev=PageView&noscript=1" /></noscript>
-        <!-- End Facebook Pixel Code -->
+  <meta charset="utf-8">
+  <title>AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines</title>
+  <!-- Search Engine -->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="description" content="Are you looking for affordable yet quality Composite Wall Cladding / decking for either your home or business?">
+  <meta name="keywords" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
+  <meta name="image" content="https://www.aggtedeck.com/images/logo3.jpg">
+  <meta name="author" content="AGGTEDeck Composite Cladding and Decking">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="google-site-verification" content="QvWa1ncmrWdTSHABNu1A6xJ7bIYV3nGcf4pT4y8zjmg" />
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
+  <meta itemprop="description" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
+  <meta itemprop="image" content="https://www.aggtedeck.com/images/logo3.jpg">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
+  <meta name="og:description" content="Build your dream deck with AGGTEDeck, One of Philippines trusted Quality composite decking and cladding supplier | AGGTE ,WPC, Composites, AGG, GoGreen, Cladding panel, Decking board, Gates, Wood Plastic Composite Materials">
+  <meta name="og:image" content="https://www.aggtedeck.com/images/logo3.jpg">
+  <meta name="og:url" content="https://aggtedeck.com">
+  <meta name="og:site_name" content="AGGTEDeck Composite Cladding | Composite Decking | Taal, Batangas, Philippines">
+  <meta name="fb:admins" content="198102358516938">
+  <meta name="fb:app_id" content="198102358516938">
+  <meta name="og:type" content="website">
+  <!-- Pinterest Metatag -->
+  <meta name="p:domain_verify" content="6f587306ee8b4c60fb96f108aac158ac" />
+  <!-- Facebook Domain Verification -->
+  <meta name="facebook-domain-verification" content="7dwfnme386x93giukotpjrs5ymvjh3" />
+  <!-- Facebook Pixel Code -->
+  <link class="logoicon" rel="shortcut icon" href="../favicon.ico">
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '198102358516938');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=198102358516938&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 
   <!-- Fav Icon -->
   <link class="logoicon" rel="shortcut icon" href="favicon.ico">
@@ -81,7 +79,7 @@
   <link rel=“canonical” href=“https://www.aggtedeck.com” />
   <!-- Google Tag Manager -->
   <script>
-    (function (w, d, s, l, i) {
+    (function(w, d, s, l, i) {
       w[l] = w[l] || [];
       w[l].push({
         'gtm.start': new Date().getTime(),
@@ -98,57 +96,57 @@
   </script>
   <!-- End Google Tag Manager -->
 
-    <!-- Local Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "AGGTEDeck Composite Cladding & Decking",
-        "image": "https://www.aggtedeck.com/images/logo3.jpg",
-        "@id": "https://www.aggtedeck.com/",
-        "url": "https://www.aggtedeck.com/",
-        "telephone": "Globe 0916 377 0871  /  Smart 0929 3185482",
-        "priceRange": "Php 5.00 - Php 920.00",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Bagong Daan, Diversion Road, Barangay Cawit",
-          "addressLocality": "Taal, Batangas",
-          "postalCode": "4208",
-          "addressCountry": "PH"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 13.897579111806225,
-          "longitude": 120.92305571076798
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday"
-          ],
-          "opens": "08:00",
-          "closes": "17:00"
-        },
-        "sameAs": [
-          "https://www.facebook.com/aggtedeck",
-          "https://twitter.com/AggteD",
-          "http://instagram.com/aggtedeck",
-          "https://www.linkedin.com/company/aggtedeck",
-          "https://www.pinterest.ph/aggtedeck",
-          "https://www.aggtedeck.com"
-        ]
-      }
-    </script>
+  <!-- Local Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "AGGTEDeck Composite Cladding & Decking",
+      "image": "https://www.aggtedeck.com/images/logo3.jpg",
+      "@id": "https://www.aggtedeck.com/",
+      "url": "https://www.aggtedeck.com/",
+      "telephone": "Globe 0916 377 0871  /  Smart 0929 3185482",
+      "priceRange": "Php 5.00 - Php 920.00",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bagong Daan, Diversion Road, Barangay Cawit",
+        "addressLocality": "Taal, Batangas",
+        "postalCode": "4208",
+        "addressCountry": "PH"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 13.897579111806225,
+        "longitude": 120.92305571076798
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/aggtedeck",
+        "https://twitter.com/AggteD",
+        "http://instagram.com/aggtedeck",
+        "https://www.linkedin.com/company/aggtedeck",
+        "https://www.pinterest.ph/aggtedeck",
+        "https://www.aggtedeck.com"
+      ]
+    }
+  </script>
 </head>
+
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4S5CH8" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4S5CH8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Load Facebook SDK for JavaScript -->
   <?php include 'fbplug.php'; ?>
   <!--Load Facebook SDK for JavaScript Ends Here-->
@@ -156,21 +154,20 @@
     <!--preloader start-->
     <div id="preloader" class="preloader">
     </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-      integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
     <script>
-       function makeUid(length) {
-    var result           = '';
-    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * 
- charactersLength));
-   }
-   return result;
-}
-uCode = makeUid(19);
-      $(function () {
+      function makeUid(length) {
+        var result = '';
+        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var charactersLength = characters.length;
+        for (var i = 0; i < length; i++) {
+          result += characters.charAt(Math.floor(Math.random() *
+            charactersLength));
+        }
+        return result;
+      }
+      uCode = makeUid(19);
+      $(function() {
         // Cookies
         function setCookie(name, value, days) {
           if (days) {
@@ -217,8 +214,7 @@ uCode = makeUid(19);
         <div class="slidewrap">
           <!--<h3>Welcome to AGGTEDeck Composite Cladding & Decking </h3>-->
           <h1>Transforming your ideas <span>into reality</span></h1>
-          <a href="about.php" class="btn btn-default section-btn">See more</a><a
-            class="btn btn-default section-btn span_color" href="contact.php">Contact Us</a>
+          <a href="about.php" class="btn btn-default section-btn">See more</a><a class="btn btn-default section-btn span_color" href="contact.php">Contact Us</a>
         </div>
       </div>
     </div>
@@ -228,12 +224,7 @@ uCode = makeUid(19);
         <!--Row Start-->
         <h3>Looking for a quality materials for your next project?</h3>
       </div>
-      <div class="quote-btn"><a
-          style="text-decoration:none; font-size:18px; position:relative; cursor:pointer; -webkit-transition:all 0.5s ease 0s; transition:all 0.5s ease 0s; color:darkgreen!important; border:2px solid #fff; border-radius:0px; font-family:'Oswald', sans-serif; background:none;"
-          data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-md-3"
-          class="brochure-btn theme-btn hvr-link grey">Get a Sample</a><a data-dismiss="modal" aria-label="Close"
-          data-toggle="modal" data-target=".bs-example-modal-md-2" class="brochure-btn theme-btn hvr-link"
-          style="text-decoration:none; font-size:18px; position:relative; cursor:pointer; -webkit-transition:all 0.5s ease 0s; transition:all 0.5s ease 0s; color:darkgreen!important; border:2px solid #fff; border-radius:0px; font-family:'Oswald', sans-serif; background:white;">Get
+      <div class="quote-btn"><a style="text-decoration:none; font-size:18px; position:relative; cursor:pointer; -webkit-transition:all 0.5s ease 0s; transition:all 0.5s ease 0s; color:darkgreen!important; border:2px solid #fff; border-radius:0px; font-family:'Oswald', sans-serif; background:none;" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-md-3" class="brochure-btn theme-btn hvr-link grey">Get a Sample</a><a data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-md-2" class="brochure-btn theme-btn hvr-link" style="text-decoration:none; font-size:18px; position:relative; cursor:pointer; -webkit-transition:all 0.5s ease 0s; transition:all 0.5s ease 0s; color:darkgreen!important; border:2px solid #fff; border-radius:0px; font-family:'Oswald', sans-serif; background:white;">Get
           a Quote</a></div>
       <!--Row End-->
 
@@ -250,7 +241,8 @@ uCode = makeUid(19);
             <div class="section-title">
               <h3><a target="_blank" href="https://aquaponicsgogreen.com/shop/wpc-decking-wood-accessories">Aquaponics
                   Go Green Trading Enterprise</a><br>
-                <span>Composite Cladding & Decking</span></h3>
+                <span>Composite Cladding & Decking</span>
+              </h3>
               <h4>Unlike wood, Composite Cladding & Decking won't: </h4>
               <div class="about-description">
                 <ul>
@@ -281,16 +273,13 @@ uCode = makeUid(19);
       <div class="container">
         <div class="section-title" href="#ourbestservices">
           <h3>OUR BEST <span>SERVICES</span></h3>
-          <p>Your deck goes beyond the function of <a target="_blank"
-              href="https://en.wikipedia.org/wiki/Wood-plastic_composite#WPC_sandwich_boards">composite boards</a>. It
-            can also be a deck framing or it can also be possibly used as a patio furniture. Every <a
-              href="services.php">AGGTEDeck Composite Cladding and Decking</a> piece is made from top grade material,
+          <p>Your deck goes beyond the function of <a target="_blank" href="https://en.wikipedia.org/wiki/Wood-plastic_composite#WPC_sandwich_boards">composite boards</a>. It
+            can also be a deck framing or it can also be possibly used as a patio furniture. Every <a href="services.php">AGGTEDeck Composite Cladding and Decking</a> piece is made from top grade material,
             thus, it can withstand weather changes, it is long-lasting and easy to care-for even when installed indoors
             or outdoors. On top of these, the perfect blend of elegance and durability that our products have make it
             stand out in the market and this has greatly contributed to the lasting trust that its clients have been
             giving to AGGTE.<br><br>
-            Remember, when it comes to your <a target="_blank"
-              href="https://aquaponicsgogreen.com/shop/wpc-decking-wood-accessories">cladding and decking</a> needs, we
+            Remember, when it comes to your <a target="_blank" href="https://aquaponicsgogreen.com/shop/wpc-decking-wood-accessories">cladding and decking</a> needs, we
             have it all for you here at AGGTE. So, what are you waiting for, take a look now at our product offering and
             see it for yourself!
           </p>
@@ -306,14 +295,14 @@ uCode = makeUid(19);
                   <h3><a href="services.php">Wall Cladding</a></h3>
                   <p>Exterior composite wall cladding has the capability of making your property look completely
                     refreshed. It is sometimes referred to as house cladding or wall cladding. This material can
-                    instantly give a modern make-over on your exteriors. With this type of <a target="_blank"
-                      href="https://www.facebook.com/photo?fbid=762859461268929&set=pcb.762860451268830">cladding
+                    instantly give a modern make-over on your exteriors. With this type of <a target="_blank" href="https://www.facebook.com/photo?fbid=762859461268929&set=pcb.762860451268830">cladding
                       material</a>, you can make the facade of your homes and buildings blend into your gardens or make
                     the style of your contemporary domestic or commercial property stand out from the others.
                     <br><br>
                     AGGTEdeck supply high-quality cladding to cover your exterior walls which can improve the kerb
                     appeal of your homes and commercial buildings in an instant.
-                    <br><br><br><br><br><br><br><br><br></p>
+                    <br><br><br><br><br><br><br><br><br>
+                  </p>
                 </div>
               </div>
             </div>
@@ -332,11 +321,11 @@ uCode = makeUid(19);
                     <br><br>
                     We have specified here every detail of our range of product and laid-down their key features. This
                     section of our site will generally give you more information that will give you a concrete idea on
-                    the different product features that definitely see <a target="_blank"
-                      href="https://www.linkedin.com/company/aggtedeck">AGGTEDeck</a> miles away from its competitors
+                    the different product features that definitely see <a target="_blank" href="https://www.linkedin.com/company/aggtedeck">AGGTEDeck</a> miles away from its competitors
                     and will lead you to the right direction in choosing for the ideal supplier of your construction
                     needs.
-                    <br><br><br><br><br><br><br><br></p>
+                    <br><br><br><br><br><br><br><br>
+                  </p>
                 </div>
               </div>
             </div>
@@ -385,8 +374,7 @@ uCode = makeUid(19);
           <div class="col-md-3 col-sm-6 col-xs-12 counter-item">
             <div class="counterbox">
               <div class="counter-icon"><i class="fa fa-list-ul" aria-hidden="true"></i></div>
-              <div class="counter_area"><span class="counter-number" data-from="1" data-to="6"
-                  data-speed="1900">4</span> <span class="counter-text">years serving</span> </div>
+              <div class="counter_area"><span class="counter-number" data-from="1" data-to="6" data-speed="1900">4</span> <span class="counter-text">years serving</span> </div>
             </div>
           </div>
           <!--col end-->
@@ -394,8 +382,7 @@ uCode = makeUid(19);
           <div class="col-md-3 col-sm-6 col-xs-12 counter-item">
             <div class="counterbox">
               <div class="counter-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-              <div class="counter_area"> <span class="counter-number" data-from="1" data-to="5"
-                  data-speed="2500">3</span> <span class="counter-text">Expert</span> </div>
+              <div class="counter_area"> <span class="counter-number" data-from="1" data-to="5" data-speed="2500">3</span> <span class="counter-text">Expert</span> </div>
             </div>
           </div>
           <!--col end-->
@@ -403,8 +390,7 @@ uCode = makeUid(19);
           <div class="col-md-3 col-sm-6 col-xs-12 counter-item">
             <div class="counterbox">
               <div class="counter-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
-              <div class="counter_area"> <span class="counter-number" data-from="1" data-to="230"
-                  data-speed="3000">30</span> <span class="counter-text">Happy Customer</span> </div>
+              <div class="counter_area"> <span class="counter-number" data-from="1" data-to="230" data-speed="3000">30</span> <span class="counter-text">Happy Customer</span> </div>
             </div>
           </div>
           <!--col end-->
@@ -412,8 +398,7 @@ uCode = makeUid(19);
           <div class="col-md-3 col-sm-6 col-xs-12 counter-item">
             <div class="counterbox">
               <div class="counter-icon"><i class="fa fa-trophy" aria-hidden="true"></i></div>
-              <div class="counter_area_1"> <span class="counter-number" data-from="1" data-to="7"
-                  data-speed="4000">88</span> <span class="counter-text">Professional Awards</span></div>
+              <div class="counter_area_1"> <span class="counter-number" data-from="1" data-to="7" data-speed="4000">88</span> <span class="counter-text">Professional Awards</span></div>
             </div>
           </div>
           <!--col end-->
@@ -437,8 +422,7 @@ uCode = makeUid(19);
         <!--row start-->
         <div class="row">
           <ul class="container-filter categories-filter">
-            <li> <a class="categories hvr-link" data-filter="*" id="all1" onclick="Focus1()"
-                style="background-color: darkgreen;color:white">All Projects</a> </li>
+            <li> <a class="categories hvr-link" data-filter="*" id="all1" onclick="Focus1()" style="background-color: darkgreen;color:white">All Projects</a> </li>
             <li> <a class="categories hvr-link" data-filter=".cladding" id="all2" onclick="Focus2()">Cladding</a> </li>
             <li> <a class="categories hvr-link" data-filter=".decking" id="all3" onclick="Focus3()">Decking</a> </li>
             <li> <a class="categories hvr-link" data-filter=".gates" id="all4" onclick="Focus4()">Gates</a> </li>
@@ -455,8 +439,7 @@ uCode = makeUid(19);
                   <h3>WPC Decking</h3>
                   <p>Taal, Batangas</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/decking/decking_b.jpg" title="WPC Decking"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
+                <div class="link-wrap"> <a href="images/gallery/decking/decking_b.jpg" title="WPC Decking" class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
             <!--col end-->
@@ -467,8 +450,7 @@ uCode = makeUid(19);
                   <h3>WPC Decking</h3>
                   <p>Parañaque, Metro Manila</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/decking/decking1.png" title="WPC Decking"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
+                <div class="link-wrap"> <a href="images/gallery/decking/decking1.png" title="WPC Decking" class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
             <!--col end-->
@@ -479,23 +461,21 @@ uCode = makeUid(19);
                   <h3>WPC Gate</h3>
                   <p>Imus, Cavite</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/gates/gate_b.jpg" title="WPC Gate"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
+                <div class="link-wrap"> <a href="images/gallery/gates/gate_b.jpg" title="WPC Gate" class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
             <!--col end-->
             <!--col start-->
-            <li class="col-md-3 col-sm-6 col-xs-12 nf-item branding cladding">
-              <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding_a.jpg" alt="img-4">
-                <div class="caption">
-                  <h3>WPC Cladding</h3>
-                  <p>Batangas City</p>
-                </div>
-                <div class="link-wrap"> <a href="images/gallery/cladding/cladding_a.jpg" title="WPC Cladding"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
-              </div>
-            </li>
-            <!--col end-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding9.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>Sta. Cruz, Laguna</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding9.png" title="WPC Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
             <!--col start-->
             <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
               <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate_a.jpg" alt="img-1">
@@ -503,35 +483,32 @@ uCode = makeUid(19);
                   <h3>WPC Gate</h3>
                   <p>Quezon City, Metro Manila</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/gates/gate_a.jpg" title="WPC Gates"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
-              </div>
-            </li>
-           <!--col end-->
-            <!--col start-->
-            <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-              <div class="image-hover-effect-4"> <img src="images/gallery/decking/deckingnew.jpg" alt="img-6">
-                <div class="caption">
-                  <h3>WPC Decking</h3>
-                  <p>Alaminos Pangasinan</p>
-                </div>
-                <div class="link-wrap"> <a href="images/gallery/decking/deckingnew.jpg" title="Poolside Decking"
-                    class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+                <div class="link-wrap"> <a href="images/gallery/gates/gate_a.jpg" title="WPC Gates" class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
             <!--col end-->
             <!--col start-->
-            <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-              <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding2.png" alt="img-7">
-                <div class="caption">
-                  <h3>WPC Cladding</h3>
-                  <p>Batangas City</p>
-                </div>
-                <div class="link-wrap"> <a href="images/gallery/cladding/cladding2.png" title="WPC Cladding"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
-              </div>
-            </li>
-            <!--col end-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding_l.jpg" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>San Pablo, Laguna</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding_l.jpg" title="Accent Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+            <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding_o.jpg" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>Maragondon, Cavite</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding_o.jpg" title="Accent Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
             <!--col start-->
             <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
               <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking_f.jpg" alt="img-8">
@@ -539,8 +516,7 @@ uCode = makeUid(19);
                   <h3>WPC Decking</h3>
                   <p>Nueva Ecija</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/decking/decking_f.jpg" title="WPC Decking Lanai"
-                    class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+                <div class="link-wrap"> <a href="images/gallery/decking/decking_f.jpg" title="WPC Decking Lanai" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
               </div>
             </li>
             <!--col end-->
@@ -551,23 +527,21 @@ uCode = makeUid(19);
                   <h3>WPC Cladding</h3>
                   <p>Quezon City, Metro Manila</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/cladding/cladding_c.jpg" title="Accent Cladding"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
+                <div class="link-wrap"> <a href="images/gallery/cladding/cladding_c.jpg" title="Accent Cladding" class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
             <!--col end-->
             <!--col start-->
-            <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-              <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding1.png" alt="img-10">
-                <div class="caption">
-                  <h3>WPC Cladding</h3>
-                  <p>Cainta, Rizal</p>
-                </div>
-                <div class="link-wrap"> <a href="images/gallery/cladding/cladding1.png" title="Accent Cladding"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
-              </div>
-            </li>
-            <!--col end-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
+           <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking_h.jpg" alt="img-8">
+             <div class="caption">
+               <h3>WPC Decking</h3>
+               <p>Pangasinan</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/decking/decking_h.jpg" title="WPC Decking" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
             <!--col start-->
             <li class="col-md-3 col-sm-6 col-xs-12 nf-item gates">
               <div class="image-hover-effect-4"> <img src="images/gallery/gates/gatenew.png" alt="img-11">
@@ -575,8 +549,7 @@ uCode = makeUid(19);
                   <h3>WPC Gates</h3>
                   <p>Olongapo City</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/gates/gatenew.png" title="WPC Gate"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
+                <div class="link-wrap"> <a href="images/gallery/gates/gatenew.png" title="WPC Gate" class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
             <!--col end-->
@@ -587,11 +560,54 @@ uCode = makeUid(19);
                   <h3>WPC Gates</h3>
                   <p>Las Piñas</p>
                 </div>
-                <div class="link-wrap"> <a href="images/gallery/gates/gate_e.jpg" title="WPC Accent Gate"
-                    class="lightbox-image"><i class="fa fa-search"></i></a></div>
+                <div class="link-wrap"> <a href="images/gallery/gates/gate_e.jpg" title="WPC Accent Gate" class="lightbox-image"><i class="fa fa-search"></i></a></div>
               </div>
             </li>
             <!--col end-->
+            <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
+           <div class="image-hover-effect-4"> <img src="images/gallery/decking/newdecking.jpg" alt="img-8">
+             <div class="caption">
+               <h3>WPC Decking</h3>
+               <p>Calamba, Laguna</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/decking/newdecking.jpg" title="WPC Decking Poolside" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
+           <div class="image-hover-effect-4"> <img src="images/gallery/decking/newdecking4.jpg" alt="img-8">
+             <div class="caption">
+               <h3>WPC Decking</h3>
+               <p>Camp Aurora Lumban Laguna</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/decking/newdecking4.jpg" title="WPC Decking" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
+           <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking5.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Decking</h3>
+               <p>Quezon City </p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/decking/decking5.png" title="WPC Decking Lanai" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
+           <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking10.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Decking</h3>
+               <p>Parañaque</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/decking/decking10.png" title="WPC Decking Stairway" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
           </ul>
           <!--row end-->
         </div>
@@ -609,7 +625,8 @@ uCode = makeUid(19);
           <div class="col-md-6">
             <div class="section-title">
               <h3>Our special support<br>
-                <span>Why Choose Us </span></h3>
+                <span>Why Choose Us </span>
+              </h3>
               <p> We strongly believe that our products are easy to install. As a matter of fact, its assembly does not
                 require highly specialized tools and on top of that, since all the materials that we are using are
                 light-weight, setting it up is also easy. Thus, we can make it possible for you to achieve your desired
@@ -660,7 +677,7 @@ uCode = makeUid(19);
           <h3 class="white_color">Testimonials</h3>
         </div>
         <ul class="owl-carousel">
-        <li class="item">
+          <li class="item">
             <div class="testiWrp">
               <p><span style="font-size: 150%;font-weight: bold">Very Responsive!</span><br>Thank you for being responsive and commending your team for very careful delivery! Appreciate your recommendations too! Your claddings are perfect! We're so happy!</p>
               <div class="clientInfo">
@@ -705,14 +722,12 @@ uCode = makeUid(19);
                   day</span><br>Quick in response and the delivery leadtime was also quick, everything was well prepared
                 and exactly what I'd ordered. Would go to them straight away with future composite material needs.</p>
               <div class="clientInfo">
-                <div class="name">Dondie Prats<span class="white_color">Contractor<a class="trigger"
-                      data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-mds"
-                      id="subButton"></a></span></div>
+                <div class="name">Dondie Prats<span class="white_color">Contractor<a class="trigger" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".bs-example-modal-mds" id="subButton"></a></span></div>
                 <div class="clearfix"></div>
               </div>
             </div>
           </li>
-          
+
         </ul>
       </div>
     </div>
@@ -751,10 +766,10 @@ uCode = makeUid(19);
     }
   </script>
   <script>
-    $(document).ready(function () {
-      $('#preload').load(function () {});
+    $(document).ready(function() {
+      $('#preload').load(function() {});
     });
-    $(window).load(function () {
+    $(window).load(function() {
       $("#invis").animate({
         opacity: 1
       }, 1000);
@@ -762,19 +777,19 @@ uCode = makeUid(19);
     });
   </script>
   <!--j query end-->
-  </body>
+</body>
 <script>
   function makeid(length) {
-    var result           = '';
-    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var result = '';
+    var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * 
- charactersLength));
-   }
-   return result;
-}
-  $(function () {
+    for (var i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() *
+        charactersLength));
+    }
+    return result;
+  }
+  $(function() {
     // Cookies
     function setCookie(name, value, days) {
       if (days) {
@@ -799,8 +814,8 @@ uCode = makeUid(19);
     code = makeid(19);
     var myCookie = getCookie("__sbmdl");
     if (myCookie == null) {
-      $(document).ready(function () {
-        setTimeout(function () {
+      $(document).ready(function() {
+        setTimeout(function() {
           document.getElementById('subButton').click();
         }, 6000);
       });

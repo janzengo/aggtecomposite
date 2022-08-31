@@ -626,6 +626,61 @@
            </div>
          </li>
          <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item gates">
+           <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate3.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Gates</h3>
+               <p>Real, Quezon</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/gates/gate3.png" title="WPC Gate" class="lightbox-image"><i class="fa fa-search"></i></a></div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding11.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>San Juan, Metro Manila</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding11.png" title="WPC Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
+           <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking12.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Decking</h3>
+               <p>Cavite</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/decking/decking12.png" title="WPC Decking" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding12.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>Cavite</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding12.png" title="WPC Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item gates">
+           <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate4.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Gates</h3>
+               <p>Real, Quezon</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/gates/gate4.png" title="WPC Gate" class="lightbox-image"><i class="fa fa-search"></i></a></div>
+           </div>
+         </li>
+         <!--col end-->
        </ul>
        <!--row end-->
      </div>

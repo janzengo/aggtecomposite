@@ -208,7 +208,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="contact-item">
             <div class="fig_caption">
-              <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i> </div>
+              <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i> </div>
               <div class="details">
                 <h3>Mail us</h3>
                 <p> <strong>Sales Team</strong>

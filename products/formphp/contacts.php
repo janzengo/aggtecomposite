@@ -6,10 +6,10 @@
 <!-- Mail Email -->
 <?php 
     if(isset($_POST['submit'])){
-   
+
     //array initializations
     $mainMessage = $_POST['req-message'];
-    $to = "info@aggtedeck.com";
+    $to = "admin@aggtedeck.com";
     $clientName = $_POST['clientName'];
     $phone = $_POST['phone_number'];
     $subject = "New Inquiry from $clientName!"; 
@@ -19,7 +19,15 @@
     $message = "From: $from\n" . "Client Name: $clientName \n" . "Client Contact Number: $phone \n" . "Call: $radioSelection \n";
     $message .= "\nMessage: $mainMessage \n";
     $ok = mail($to, $subject, $message, $headers); 
-	if ($ok) {
+	if (!$ok) {
+        $clientName = $_POST['clientName'];
+        $senderEmail = $_POST["email"];
+        $confSubject = "AGGTEDeck: Your recent inquiry";
+        $confHeader = "From: AGGTEDeck WPC Cladding & Decking <no-reply@aggtedeck.com>";
+        $sendMessage = "Your email: $senderEmail \n";
+        $sendMessage .= "Hi $clientName! \nThank you for your inquiries. A member of our team will respond to your message as soon as possible.\n";
+        $sendMessage .= "\nRegards, \n -AGGTEDeck WPC Cladding & Decking Team\n";
+        mail($senderEmail, $confSubject, $sendMessage, $confHeader);
         session_start();
         session_destroy();
         echo "<script>
@@ -36,15 +44,7 @@
 	}
 }
 ?>
+ 
 
-<!-- Email To Sender -->
-<?php 
-$senderEmail = $_POST["email"];
-$confSubject = "AGGTEDeck: Your recent inquiry";
-$confHeader = "From: AGGTEDeck WPC Cladding & Decking <no-reply@aggtedeck.com>";
-$sendMessage = "Your email: $senderEmail \n";
-$sendMessage .= "Hi $clientName! \nThank you for your inquiries. A member of our team will respond to your message as soon as possible.\n";
-$sendMessage .= "\nRegards, \n -AGGTEDeck WPC Cladding & Decking Team\n";
-mail($senderEmail, $confSubject, $sendMessage, $confHeader);
-?>
+
 

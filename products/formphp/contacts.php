@@ -1,25 +1,36 @@
 <style>
-    .preloader{position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:99999999; background-color:#ffffff; background-position:center center;	background-repeat:no-repeat; background-image:url(../../images/preloader.gif);}
+    .preloader {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 99999999;
+        background-color: #ffffff;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url(../../images/preloader.gif);
+    }
 </style>
 <div class="preloader">
 </div>
 <!-- Mail Email -->
-<?php 
-    if(isset($_POST['submit'])){
+<?php
+if (isset($_POST['submit'])) {
 
     //array initializations
     $mainMessage = $_POST['req-message'];
-    $to = "admin@aggtedeck.com";
+    $to = "quote@aggtedeck.com";
     $clientName = $_POST['clientName'];
     $phone = $_POST['phone_number'];
-    $subject = "New Inquiry from $clientName!"; 
-    $from = $_POST['email']; 
+    $subject = "New Inquiry from $clientName!";
+    $from = $_POST['email'];
     $headers = "From: $from";
     $radioSelection = $_POST['call'];
     $message = "From: $from\n" . "Client Name: $clientName \n" . "Client Contact Number: $phone \n" . "Call: $radioSelection \n";
     $message .= "\nMessage: $mainMessage \n";
-    $ok = mail($to, $subject, $message, $headers); 
-	if ($ok) {
+    $ok = mail($to, $subject, $message, $headers);
+    if ($ok) {
         $clientName = $_POST['clientName'];
         $senderEmail = $_POST["email"];
         $confSubject = "AGGTEDeck: Your recent inquiry";
@@ -35,16 +46,12 @@
             window.location.href='../../contact.php';
             }, 2000);
             </script>";
-	} else { 
-		echo "<script>
+    } else {
+        echo "<script>
             window.setTimeout(function() {
             window.location.href='errorcon.php';
             }, 2000);
             </script>";
-	}
+    }
 }
 ?>
- 
-
-
-

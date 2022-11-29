@@ -19,7 +19,7 @@
     $message = "From: $from\n" . "Client Name: $clientName \n" . "Client Contact Number: $phone \n" . "Call: $radioSelection \n";
     $message .= "\nMessage: $mainMessage \n";
     $ok = mail($to, $subject, $message, $headers); 
-	if (!$ok) {
+	if ($ok) {
         $clientName = $_POST['clientName'];
         $senderEmail = $_POST["email"];
         $confSubject = "AGGTEDeck: Your recent inquiry";

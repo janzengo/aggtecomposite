@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
 
     //array initializations
     $mainMessage = $_POST['req-message'];
-    $to = "quote@aggtedeck.com";
+    $to = "info@aggtedeck.com";
     $clientName = $_POST['clientName'];
     $phone = $_POST['phone_number'];
     $subject = "New Inquiry from $clientName!";
@@ -39,13 +39,6 @@ if (isset($_POST['submit'])) {
         $sendMessage .= "Hi $clientName! \nThank you for your inquiries. A member of our team will respond to your message as soon as possible.\n";
         $sendMessage .= "\nRegards, \n -AGGTEDeck WPC Cladding & Decking Team\n";
         mail($senderEmail, $confSubject, $sendMessage, $confHeader);
-        session_start();
-        session_destroy();
-        echo "<script>
-            window.setTimeout(function() {
-            window.location.href='../../contact.php';
-            }, 2000);
-            </script>";
     } else {
         echo "<script>
             window.setTimeout(function() {
@@ -53,5 +46,11 @@ if (isset($_POST['submit'])) {
             }, 2000);
             </script>";
     }
+    session_destroy();
+    echo "<script>
+            window.setTimeout(function() {
+            window.location.href='../../confirmation.php';
+            }, 2000);
+        </script>";
 }
 ?>

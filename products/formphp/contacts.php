@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
     session_destroy();
     echo "<script>
             window.setTimeout(function() {
-            window.location.href='../../confirmation.php';
+            window.location.href='../../confirmation.php?from=contacts';
             }, 2000);
         </script>";
 }

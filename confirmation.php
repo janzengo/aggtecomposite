@@ -164,12 +164,31 @@
 </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function(){
-   setTimeout(function(){
-         location.href = 'index.php';
-   },4000);
-});
-</script>
+<?php 
+  $origin = $_GET['from'];
+  if($origin == 'faq') {
+    echo '
+        <script>
+        $(document).ready(function(){
+      setTimeout(function(){
+            location.href = "faq.php";
+      },4000);
+    });
+    </script>
+    ';
+  }
+  else if($origin == 'contacts') {
+          echo '
+          <script>
+          $(document).ready(function(){
+        setTimeout(function(){
+              location.href = "contact.php";
+        },4000);
+      });
+      </script>
+      ';
+  }
+?>
+
 </body>
 </html>

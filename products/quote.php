@@ -125,11 +125,13 @@ if(isset($_FILES) && (bool) $_FILES) {
         session_start();
         session_destroy();
         echo "<script>
-            window.location.href='/products/';
-            </script>";
+            window.setTimeout(function() {
+            window.location.href='../confirmation.php?from=products';
+            }, 2000);
+        </script>";
 	} else { 
 		echo "<script>
-            window.location.href='../products/errorcon.php';
+            window.location.href='formphp/errorcon.php';
             </script>";
 	} 
 }	

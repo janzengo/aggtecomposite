@@ -77,20 +77,12 @@
                   <ul class="navigation clearfix">
                     <li class="current"><a class="hvr-link" href="<?php echo $root; ?>/index.php">Home</a>
                         <!--Drop Down-->
-                    <!--<ul>
-                      <li><a class="hvr-link" href="index.php">Homepage Slider</a></li>
-                      <li><a class="hvr-link" href="index.php">Homepage Static</a></li>
-                    </ul>-->
                   </li>
                     <li class="dropdown"><a class="hvr-link" href="#">About</a>
                       <ul>
                         <li><a class="hvr-link" href="<?php echo $root; ?>/about.php">About</a></li>
                         <li><a class="hvr-link" href="<?php echo $root; ?>/our-team.php">Team</a></li>
                         <li><a class="hvr-link" href="<?php echo $root; ?>/faq.php">FAQ's</a></li>
-                        <!--<li><a class="hvr-link" href="404.php">404 Page</a></li>-->
-                        <!--<li><a class="hvr-link" href="testimonial.php">Testimonials</a></li>-->
-                        <!--<li><a class="hvr-link" href="typoghrapy.php">Typoghrapy</a></li>-->
-                        <!--<li><a class="hvr-link" href="coming-soon.php">Coming-soon</a></li>-->
                       </ul>
                     </li>
                     <li class="dropdown"><a class="hvr-link" href="services.php">Services</a>
@@ -104,28 +96,7 @@
                     </li>
                     <li title="Coming Soon"><a class="hvr-link" href="/products/" style="pointer-events: none">Products</a></li>
                     <li><a class="hvr-link" href="<?php echo $root; ?>/projects.php">Projects</a>
-                      <!--<ul>
-                        <li><a class="hvr-link" href="projects.php">Project</a></li>
-                        <li><a class="hvr-link" href="projects.php">Project Three Column</a></li>
-                        <li><a class="hvr-link" href="projects-four.php">Project Four Column</a></li>
-                        <li><a class="hvr-link" href="projects-single.php">Project Single</a></li>
-                      </ul>-->
                     </li>
-                    <!--<li><a class="hvr-link" href="shop.php">Shop</a>-->
-                      <!--<ul>
-                        <li><a class="hvr-link" href="shop.php">Our Shop</a></li>
-                        <li><a class="hvr-link" href="shop-single.php">Product Details</a></li>
-                      </ul>-->
-                    <!--</li>-->
-                    <!--<li><a class="hvr-link" href="blog-grid.php">Blog</a>-->
-                      <!--<ul>
-                        <li> <a class="hvr-link" href="blog-grid.php"> Blog Grid sidebar</a></li>
-                        <li> <a class="hvr-link" href="blog.php"> Blog List sidebar</a></li>
-                        <li> <a class="hvr-link" href="blog-grid-full-width.php"> Blog full width </a></li>
-                        <li> <a class="hvr-link" href="blog-details.php"> Blog Details with sidebar </a></li>
-                        <li> <a class="hvr-link" href="blog-details-slidebar.php"> Blog Details </a></li>
-                      </ul>-->
-                    <!--</li>-->
                     <li><a class="hvr-link" href="<?php echo $root; ?>/contact.php">Contact</a></li>
                   </ul>
                 </div>
@@ -161,20 +132,12 @@
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
                   <li class="current"><a class="hvr-link" href="<?php echo $root; ?>/index.php">Home</a>
-                    <!--<ul>
-                      <li><a class="hvr-link" href="index.php">Homepage Slider</a></li>
-                      <li><a class="hvr-link" href="index.php">Homepage Static</a></li>
-                    </ul>-->
                   </li>
                   <li class="dropdown"><a class="hvr-link" href="#">About</a>
                       <ul>
                         <li><a class="hvr-link" href="<?php echo $root; ?>/about.php">About</a></li>
                         <li><a class="hvr-link" href="<?php echo $root; ?>/our-team.php">Team</a></li>
                         <li><a class="hvr-link" href="<?php echo $root; ?>/faq.php">FAQ's</a></li>
-                        <!--<li><a class="hvr-link" href="404.php">404 Page</a></li>-->
-                        <!--<li><a class="hvr-link" href="testimonial.php">Testimonials</a></li>-->
-                        <!--<li><a class="hvr-link" href="typoghrapy.php">Typoghrapy</a></li>-->
-                        <!--<li><a class="hvr-link" href="coming-soon.php">Coming-soon</a></li>-->
                       </ul>
                     </li>
                     <li class="dropdown"><a class="hvr-link" href="services.php">Services</a>
@@ -187,28 +150,7 @@
                     </li>
                     <li title="Coming Soon"><a class="hvr-link" href="/products/" style="pointer-events: none">Products</a></li>
                     <li><a class="hvr-link" href="<?php echo $root; ?>/projects.php">Projects</a>
-                      <!--<ul>
-                        <li><a class="hvr-link" href="projects.php">Project</a></li>
-                        <li><a class="hvr-link" href="projects.php">Project Three Column</a></li>
-                        <li><a class="hvr-link" href="projects-four.php">Project Four Column</a></li>
-                        <li><a class="hvr-link" href="projects-single.php">Project Single</a></li>
-                      </ul>-->
                     </li>
-                    <!--<li><a class="hvr-link" href="shop.php">Shop</a>-->
-                      <!--<ul>
-                        <li><a class="hvr-link" href="shop.php">Our Shop</a></li>
-                        <li><a class="hvr-link" href="shop-single.php">Product Details</a></li>
-                      </ul>-->
-                    <!--</li>-->
-                    <!--<li><a class="hvr-link" href="blog-grid.php">Blog</a>-->
-                      <!--<ul>
-                        <li> <a class="hvr-link" href="blog-grid.php"> Blog Grid sidebar</a></li>
-                        <li> <a class="hvr-link" href="blog.php"> Blog List sidebar</a></li>
-                        <li> <a class="hvr-link" href="blog-grid-full-width.php"> Blog full width </a></li>
-                        <li> <a class="hvr-link" href="blog-details.php"> Blog Details with sidebar </a></li>
-                        <li> <a class="hvr-link" href="blog-details-slidebar.php"> Blog Details </a></li>
-                      </ul>-->
-                    <!--</li>-->
                   <li><a class="hvr-link" href="<?php echo $root; ?>/contact.php">Contact</a></li>
                 </ul>
               </div>

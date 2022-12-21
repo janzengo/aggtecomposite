@@ -188,6 +188,17 @@
       </script>
       ';
   }
+  else if($origin == 'products') {
+    echo '
+    <script>
+    $(document).ready(function(){
+  setTimeout(function(){
+        location.href = "products/index.php";
+  },4000);
+});
+</script>
+';
+}
 ?>
 
 </body>

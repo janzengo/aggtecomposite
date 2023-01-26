@@ -236,72 +236,71 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!--container end-->
   </section>
   <!--about-info end-->
-      <!--about-info start-->
- <section class="why_choose_us_sec">
-    <!--container start-->
-    <div class="container">
-      <!--row start-->
-      <div class="row">
-        <!--col start-->
-    <div class="section-title">
-        <h3>Why <span>Choose Us</span></h3>
+<!-- INSERT WHY CHOOSE US HERE! -->
+  <section class="contactWrap">
+      <div class="container" style="margin-bottom: 30px;">
+      <div class="section-title">
+        <h3>Why <span>Choose </span>Us?</h3>
       </div>
-        <div class="col-md-6 col-sm-push-6">
-          <div class="aboutUs-description">
-            <div class="row">
-              <!--col start-->
-              <div class="col-md-12">
-                <div class="single-why-choose-list"> <i class="fa fa-users"></i>
+        <!--row start-->
+      <div class="row serviceList">
+        <!--col start-->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="contact-item">
+            <div class="fig_caption">
+              <div class="icon"><i class="fa fa-map-users" aria-hidden="true"></i> </div>
+              <div class="details">
                 <h3>Workers</h3>
-                <p>Our workers are all well-versed about our products because they have undergone advanced training and were privileged to join a pool of professionals with very extensive <a target="_blank" href="https://en.wikipedia.org/wiki/Wood-plastic_composite">WPC Cladding and Decking</a> experience in the industry.</p>
-              </div>
-              </div>
-              <!--col end-->
-
-              <!--col start-->
-              <div class="col-md-12">
-                <div class="single-why-choose-list"><i class="fa fa-wrench"></i>
-                <h3>Repairs</h3>
-                <p>Our company assures quick and immediate response upon <a href="contact.php#contact-section">inquiries and request</a> addressed to us. To ensure excellent delivery of service, well-trained subcontractor builders are being assigned by the management. The team shall attend to the concerns of the clients and take action within 3 to 5 working days after receiving the information from the client.</p>
-              </div>
-              </div>
-              <!--col end-->
-              <!--col start-->
-              <div class="col-md-12">
-                <div class="single-why-choose-list"> <i class="fa fa-th-large"></i>
-                <h3>Materials</h3>
-                <p>With a blend of elegance and strength, or come together as one weather-shrugging, long-lasting, easy-to-care on indoor or indoor applications, every AGGTE® WPC CLADDING & DECKING piece can stand on its own and this is its advantage over its competitors.</p>
-              </div>
-              </div>
-              <!--col end-->
-              <!--col start-->
-                <div class="col-md-12">
-                <div class="single-why-choose-list"> <i class="fa fa-truck"></i>
-                <h3>Delivery</h3>
-                <p>We are determined to dispatch all your orders within one-working day. However, we advise you to give us at least 3-5 working days to deliver your goods after you have confirmed your orders. As an alternative, items may be collected at our warehouse in Taal, Batangas upon arrangement. Please call us on<a target="_blank" href="contact.php"> 09163770871 </a>to discuss this service if you prefer it.</p>
-              </div>
+                <p>Our workers are all well-versed about our products because they have undergone advanced training and were privileged to join a pool of professionals with very extensive <a target="_blank" href="https://en.wikipedia.org/wiki/Wood-plastic_composite">WPC Cladding and Decking</a> experience in the industry.</p><br> <br> <br> <br>
               </div>
             </div>
           </div>
         </div>
         <!--col end-->
         <!--col start-->
-        <div class="col-md-6 col-sm-pull-6">
-          <div class="about-img"><br><br><br>
-            <figure> <img src="images/worker.png" class="img-responsive" alt="Image" id="sec-image-and"></figure>
-          </div>
-            <div name="divHrefB" style="height: 0px;width: 0px;overflow:hidden;">
-                <a href='https://www.freepik.com/vectors/sale'>Sale vector created by macrovector - www.freepik.com</a>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="contact-item">
+            <div class="fig_caption">
+              <div class="icon"><i class="fa fa-wrench" aria-hidden="true"></i> </div>
+              <div class="details">
+                <h3>Repairs</h3>
+                <p>Our company assures quick and immediate response upon <a href="contact.php#contact-section">inquiries and request</a> addressed to us. To ensure excellent delivery of service, well-trained subcontractor builders are being assigned by the management. The team shall attend to the concerns of the clients and take action within 3 to 5 working days after receiving the information from the client.</p> 
+              </div>
             </div>
+          </div>
         </div>
+        <!--col end-->
         <!--col start-->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="contact-item">
+            <div class="fig_caption">
+              <div class="icon"><i class="fa fa-th-large" aria-hidden="true"></i> </div>
+              <div class="details">
+                <h3>Materials</h3>
+                <p>With a blend of elegance and strength, or come together as one weather-shrugging, long-lasting, easy-to-care on indoor or indoor applications, every AGGTE® WPC CLADDING & DECKING piece can stand on its own and this is its advantage over its competitors.</p> <br> <br> <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--col end-->
+        <!--col start-->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="contact-item">
+            <div class="fig_caption">
+              <div class="icon"><i class="fa fa-truck" aria-hidden="true"></i> </div>
+              <div class="details">
+                <h3>Delivery</h3>
+                <p>We are determined to dispatch all your orders within one-working day. However, we advise you to give us at least 3-5 working days to deliver your goods after you have confirmed your orders. As an alternative, items may be collected at our warehouse in Taal, Batangas upon arrangement. Please call us on<a target="_blank" href="contact.php"> 09163770871 </a>to discuss this service if you prefer it.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--col end-->
       </div>
       <!--row end-->
-    </div>
-    <!--container end-->
-  </section>
+  </div>
+    <section>
   <!--about-info end-->
-    <!--why_choose_us_sec start-->
   <section id="advantage" class="why_choose_us_sec" style="background: #fff">
     <div class="container">
       <div class="section-title">
@@ -341,9 +340,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="single-item center-align" style="border: solid 1px white; padding:0px 1px" >
               <img class="advantage-image" src="images/deforestation.jpg">
-              <p style="padding-top: 10px">Contributes to deforestation, cutting down trees that local wildlife depend on for food and shelter
-
-</p>
+              <p style="padding-top: 10px">Contributes to deforestation, cutting down trees that local wildlife depend on for food and shelter </p>
         </div>
       </div>
         <div class="col-md-4 col-sm-6 col-xs-12">

@@ -94,7 +94,7 @@
 
                       </ul>
                     </li>
-                    <li title="Coming Soon"><a class="hvr-link" href="/products/" style="pointer-events: none">Products</a></li>
+                    <!--<li title="Coming Soon"><a class="hvr-link" href="/products/" style="pointer-events: none">Products</a></li>-->
                     <li><a class="hvr-link" href="<?php echo $root; ?>/projects.php">Projects</a>
                     </li>
                     <li><a class="hvr-link" href="<?php echo $root; ?>/contact.php">Contact</a></li>
@@ -148,7 +148,7 @@
                         <li><a class="hvr-link" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target=".termed">Terms and Conditions</a></li>
                       </ul>
                     </li>
-                    <li title="Coming Soon"><a class="hvr-link" href="/products/" style="pointer-events: none">Products</a></li>
+                    <!--<li title="Coming Soon"><a class="hvr-link" href="/products/" style="pointer-events: none">Products</a></li>-->
                     <li><a class="hvr-link" href="<?php echo $root; ?>/projects.php">Projects</a>
                     </li>
                   <li><a class="hvr-link" href="<?php echo $root; ?>/contact.php">Contact</a></li>

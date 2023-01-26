@@ -203,7 +203,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
               <!--col start-->
               <div class="col-sm-4 counter-item">
-                <div class="single-about"> <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span class="counter_number" data-from="1" data-to="84" data-speed="3000">84</span>
+                <div class="single-about"> <i class="fa fa-thumbs-up" aria-hidden="true"></i> <span class="counter_number" data-from="1" data-to="84" data-speed="3000">84</span>
                   <p>Happy Customer</p>
                 </div>
               </div>

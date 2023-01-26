@@ -248,7 +248,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="contact-item">
             <div class="fig_caption">
-              <div class="icon"><i class="fa fa-map-users" aria-hidden="true"></i> </div>
+              <div class="icon"><i class="fa fa-users" aria-hidden="true"></i> </div>
               <div class="details">
                 <h3>Workers</h3>
                 <p>Our workers are all well-versed about our products because they have undergone advanced training and were privileged to join a pool of professionals with very extensive <a target="_blank" href="https://en.wikipedia.org/wiki/Wood-plastic_composite">WPC Cladding and Decking</a> experience in the industry.</p><br> <br> <br> <br>

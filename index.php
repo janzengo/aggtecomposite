@@ -355,11 +355,9 @@
           <!--col end-->
         </div>
         <!--row end-->
-
         <div class="readmore text-center">
           <a href="services.php"><button class="main-btn btn-1 btn-1e">All Services</button></a>
         </div>
-
       </div>
       <!--container end-->
     </section>
@@ -415,7 +413,7 @@
       <div class="container-fluid">
         <div class="section-title">
           <h3>OUR RECENT <span>PORTFOLIOS</span></h3>
-          <p>Here's our latest and most commendable <a href="projects.php">projects</a> all throughout the year 2020.
+          <p>Here's our latest and most commendable <a href="projects.php">projects</a> all throughout the year <?php echo date("Y") ?>.
             The portfolio are shown based on the comments of clients
             by their satisfaction.</p>
         </div>
@@ -431,7 +429,7 @@
         <!--row end-->
         <div class="portfolio-inner">
           <!--row start-->
-          <ul class="row container-masonry  portfolio-posts grid">
+          <ul class="row container-masonry portfolio-posts grid">
             <!--col start-->
             <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
               <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking_b.jpg" alt="img-5">
@@ -532,6 +530,17 @@
             </li>
             <!--col end-->
             <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
+           <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate8.jpg" alt="img-1">
+             <div class="caption">
+               <h3>WPC Gate</h3>
+               <p>Santiago, Isabela</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/gates/gate8.jpg" title="WPC Gates" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+            <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
            <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking_h.jpg" alt="img-8">
              <div class="caption">
@@ -565,6 +574,17 @@
             </li>
             <!--col end-->
             <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding_r.jpg" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>Batangas City</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding_r.jpg" title="Accent Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+            <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
            <div class="image-hover-effect-4"> <img src="images/gallery/decking/newdecking.jpg" alt="img-8">
              <div class="caption">
@@ -572,6 +592,17 @@
                <p>Calamba, Laguna</p>
              </div>
              <div class="link-wrap"> <a href="images/gallery/decking/newdecking.jpg" title="WPC Decking Poolside" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item gates">
+           <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate2.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Gates</h3>
+               <p>Balayan, Batangas</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/gates/gate2.png" title="WPC Gate" class="lightbox-image"><i class="fa fa-search"></i></a></div>
            </div>
          </li>
          <!--col end-->
@@ -598,6 +629,39 @@
          </li>
          <!--col end-->
          <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding14.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>Dipolog City, Zamboanga del Norte</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding14.png" title="WPC Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding12.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>Cavite</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding12.png" title="WPC Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
+           <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate7.jpg" alt="img-1">
+             <div class="caption">
+               <h3>WPC Gate</h3>
+               <p>Batasan, Quezon City</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/gates/gate7.jpg" title="WPC Gates" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
            <div class="image-hover-effect-4"> <img src="images/gallery/decking/decking10.png" alt="img-8">
              <div class="caption">
@@ -605,6 +669,28 @@
                <p>Parañaque</p>
              </div>
              <div class="link-wrap"> <a href="images/gallery/decking/decking10.png" title="WPC Decking Stairway" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
+           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/cladding10.png" alt="img-8">
+             <div class="caption">
+               <h3>WPC Cladding</h3>
+               <p>Balayan, Batangas</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/cladding/cladding10.png" title="WPC Cladding" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
+           </div>
+         </li>
+         <!--col end-->
+         <!--col start-->
+         <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
+           <div class="image-hover-effect-4"> <img src="images/gallery/gates/gate5.jpg" alt="img-1">
+             <div class="caption">
+               <h3>WPC Gate</h3>
+               <p>Muzon, Batangas</p>
+             </div>
+             <div class="link-wrap"> <a href="images/gallery/gates/gate5.jpg" title="WPC Gates" class="lightbox-image"><i class="fa fa-search"></i></a> </div>
            </div>
          </li>
          <!--col end-->

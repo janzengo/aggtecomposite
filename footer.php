@@ -138,7 +138,7 @@
       <div class="row">
         <!--col start-->
        <div class="col-md-6 col-sm-6">
-           <p><a target="_blank" href="https://www.facebook.com/wpc.claddingdecking">&copy; 2023 Aquaponics GoGreen All Rights Reserved</a> <br><span style="font-size: 14px;"> Design by <a href="https://www.linkedin.com/in/janzengo" target="_blank">Janzen Go</a> <a href="mailto:jjanzen.go@gmail.com"><i class="fas fa-envelope"></i></a> | Freelance Web Developer</span></p>
+           <p><a target="_blank" href="https://www.facebook.com/wpc.claddingdecking">&copy; <?php echo date("Y") ?> Aquaponics GoGreen All Rights Reserved</a> <br><span style="font-size: 14px;"> Design by <a href="https://www.linkedin.com/in/janzengo" target="_blank">Janzen Go</a> <a href="mailto:jjanzen.go@gmail.com"><i class="fas fa-envelope"></i></a> | Freelance Web Developer</span></p>
           </div>
         <!--col end-->
         <!--col start-->

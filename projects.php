@@ -98,8 +98,6 @@
            ]
          }
       </script>
-      <!-- Cookie -->
-      <!-- Cookie End -->
    </head>
    <body>
       <!-- Google Tag Manager (noscript) -->

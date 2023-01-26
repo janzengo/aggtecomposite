@@ -372,7 +372,7 @@
           <div class="col-md-3 col-sm-6 col-xs-12 counter-item">
             <div class="counterbox">
               <div class="counter-icon"><i class="fa fa-list-ul" aria-hidden="true"></i></div>
-              <div class="counter_area"><span class="counter-number" data-from="1" data-to="6" data-speed="1900">4</span> <span class="counter-text">years serving</span> </div>
+              <div class="counter_area"><span class="counter-number" data-from="1" data-to="<?php echo $years?>" data-speed="1900"><?php echo $years?></span> <span class="counter-text">years serving</span> </div>
             </div>
           </div>
           <!--col end-->

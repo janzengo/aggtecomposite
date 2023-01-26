@@ -1,6 +1,7 @@
 <html lang="en">
 <link rel='canonical' href='<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>'>
 <?php $root = '..'; ?>
+<?php $years = date("Y") - 2016 ?>
 <link href="css/custom.css" rel="stylesheet">
 <link href="css/altModals.css" rel="stylesheet">
 <?php include 'modals.php'; ?>

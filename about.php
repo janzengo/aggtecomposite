@@ -104,6 +104,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
+
+
 </head>
 <body>
 
@@ -195,7 +197,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
               <!--col start-->
               <div class="col-sm-4 counter-item">
-                <div class="single-about"><i class="fa fa-list-ul" aria-hidden="true"></i> <span class="counter_number" data-from="1" data-to="6" data-speed="1200">6</span>
+                <div class="single-about"><i class="fa fa-list-ul" aria-hidden="true"></i> <span class="counter_number" data-from="1" data-to="<?php echo $years?>" data-speed="1200"><?php echo $years?></span>
                   <p>year of experience</p>
                 </div>
               </div>
@@ -210,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <!--col end-->
               <!--col start-->
               <div class="col-sm-4 counter-item">
-                <div class="single-about"> <i class="fa fa-trophy" aria-hidden="true"></i> <span class="counter_number" data-from="1" data-to="5" data-speed="5000">5</span>
+                <div class="single-about"> <i class="fa fa-trophy" aria-hidden="true"></i> <span class="counter_number" data-from="1" data-to="<?php echo $years?>" data-speed="5000">5</span>
                   <p>Professional Awards</p>
                 </div>
               </div>

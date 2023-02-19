@@ -803,7 +803,7 @@ bottom:25px; z-index: 10;right:50%; background:rgb(255, 255, 255); padding:5px; 
 /*********************************************************
 					  contactWrap
 **********************************************************/
-.contactWrap{padding:70px 0px; background:#f9f9f9;}
+.contactWrap{padding:0px 0px; background:#f9f9f9;}
 .contact-item{background:#fff; padding:40px 30px; position:relative; margin:15px 0px; -webkit-transition:all 0.3s; -moz-transition:all 0.3s; -o-transition:all 0.3s; -ms-transition:all 0.3s; transition:all 0.3s; text-align: center; box-shadow: 2px 6px 29px -6px #e0e0e0;}
 .contact-item:hover{ -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -o-transition:all 0.5s; -ms-transition:all 0.5s; transition: all 0.5s;}
 .contact-item:hover .icon{color:#222222; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -o-transition:all 0.5s; -ms-transition:all 0.5s; transition:all 0.5s;}
@@ -1422,4 +1422,7 @@ background-attachment: 0px 0px;
 /* Custom */
 .whyChooseUs {
 	margin-bottom: 30px !important;
+}
+.whyChooseSecTitle {
+	margin-top: 50px;
 }

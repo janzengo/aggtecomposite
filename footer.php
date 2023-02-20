@@ -57,7 +57,7 @@
       <!--col start-->
       <div class="col-md-4 col-sm-12">
         <div class="footer-info">
-          <div class="footer-logo"> <a href="index.php"><img class="footer-logo-default" src="<?php echo $root; ?>/images/footer-logo-default.png" alt="AGGTE Default Logo"> </a> </div>
+          <div class="footer-logo"> <a href="index.php"><img loading= "lazy" class="footer-logo-default" src="<?php echo $root; ?>/images/footer-logo-default.png" alt="AGGTE Default Logo"> </a> </div>
           <p>Never miss out our latest updates online! Follow us on social media to be on top of the news:</p>
           <ul class="footer-social">
             <li><a href="https://www.facebook.com/wpc.claddingdecking" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
@@ -68,10 +68,10 @@
           </ul>
             <br>
             <div class="footer-logo">
-                    <a href="https://en.wikipedia.org/wiki/CE_marking" target="_blank"><img class="footer-logo-default" src="<?php echo $root; ?>/images/other-logos/CE.png" alt="CE Logo">&nbsp;&nbsp;</a>
-                    <a href="https://www.fsc-uk.org/en-uk/about-fsc/what-is-fsc/frequently-asked-questions#:~:text=FSC%20stands%20for%20'Forest%20Stewardship%20Council'.&text=FSC%20certifies%20forests%20all%20over,our%20'tick%20tree'%20logo." target="_blank"><img class="footer-logo-default" src="<?php echo $root; ?>/images/other-logos/FSCyc0Nbl.png" alt="FSC Logo"></a>
-                    <a href="https://www.recyclenow.com/recycling-knowledge/packaging-symbols-explained" target="_blank"><img class="footer-logo-default" src="<?php echo $root; ?>/images/other-logos/Greenpeace_symbols_recycle_sign_05s_300x300.png" alt="Recycle Sign">&nbsp;</a>
-                    <a href="https://www.rohsguide.com/rohs-faq.htm#:~:text=RoHS%20stands%20for%20Restriction%20of,products%20(known%20as%20EEE)." target="_blank"><img class="footer-logo-default" src="<?php echo $root; ?>/images/other-logos/RoHs.png" alt="RoHS Logo"></a>
+                    <a href="https://en.wikipedia.org/wiki/CE_marking" target="_blank"><img loading="lazy" class="footer-logo-default" src="<?php echo $root; ?>/images/other-logos/CE.png" alt="CE Logo">&nbsp;&nbsp;</a>
+                    <a href="https://www.fsc-uk.org/en-uk/about-fsc/what-is-fsc/frequently-asked-questions#:~:text=FSC%20stands%20for%20'Forest%20Stewardship%20Council'.&text=FSC%20certifies%20forests%20all%20over,our%20'tick%20tree'%20logo." target="_blank"><img loading="lazy" class="footer-logo-default" src="<?php echo $root; ?>/images/other-logos/FSCyc0Nbl.png" alt="FSC Logo"></a>
+                    <a href="https://www.recyclenow.com/recycling-knowledge/packaging-symbols-explained" target="_blank"><img loading="lazy" class="footer-logo-default" src="<?php echo $root; ?>/images/other-logos/Greenpeace_symbols_recycle_sign_05s_300x300.png" alt="Recycle Sign">&nbsp;</a>
+                    <a href="https://www.rohsguide.com/rohs-faq.htm#:~:text=RoHS%20stands%20for%20Restriction%20of,products%20(known%20as%20EEE)." target="_blank"><img loading="lazy" class="footer-logo-default" src="<?php echo $root; ?>/images/other-logos/RoHs.png" alt="RoHS Logo"></a>
             </div>
         </div>
       </div>

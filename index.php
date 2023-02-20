@@ -58,7 +58,7 @@
     fbq('init', '198102358516938');
     fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=198102358516938&ev=PageView&noscript=1" /></noscript>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=198102358516938&ev=PageView&noscript=1" loading="lazy"/></noscript>
   <!-- End Facebook Pixel Code -->
 
   <!-- Fav Icon -->
@@ -432,7 +432,7 @@
           <ul class="row container-masonry portfolio-posts grid">
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-           <div class="image-hover-effect-4"> <img src="images/gallery/decking/1.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/decking/1.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Decking</h3>
                <p>Taal, Batangas</p>
@@ -443,7 +443,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-           <div class="image-hover-effect-4"> <img src="images/gallery/decking/7.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/decking/7.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Decking</h3>
                <p>Parañaque, Metro Manila</p>
@@ -454,7 +454,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
-           <div class="image-hover-effect-4"> <img src="images/gallery/gates/2.webp" alt="img-3">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/gates/2.webp" alt="img-3">
              <div class="caption">
                <h3>WPC Gate</h3>
                <p>Imus, Cavite</p>
@@ -465,7 +465,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/25.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/cladding/25.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Cladding</h3>
                <p>Sta. Cruz, Laguna</p>
@@ -476,7 +476,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
-           <div class="image-hover-effect-4"> <img src="images/gallery/gates/1.webp" alt="img-1">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/gates/1.webp" alt="img-1">
              <div class="caption">
                <h3>WPC Gate</h3>
                <p>Quezon City, Metro Manila</p>
@@ -745,7 +745,7 @@
           <!--col start-->
           <div class="col-md-6">
             <div class="about-video-item">
-              <div class="about-video-img"> <img src="images/background-images/welcome-1.webp" alt="thumbnail"> <a class="video-play mfp-iframe xs-video" href="media/homeVid.mp4"><i class="fa fa-play"></i></a> </div>
+              <div class="about-video-img"> <img src="images/background-images/welcome-1.webp" alt="thumbnail" loading="lazy"> <a class="video-play mfp-iframe xs-video" href="media/homeVid.mp4"><i class="fa fa-play"></i></a> </div>
             </div>
           </div>
           <!--col end-->

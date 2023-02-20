@@ -220,7 +220,7 @@ if($(window).width() >= 1024){
       $(document).ready(function() {
         setTimeout(function() {
           document.getElementById('subButton').click();
-        }, 6000);
+        }, 20000);
       });
       setCookie("__sbmdl", code, 7);
     } else {

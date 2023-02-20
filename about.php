@@ -239,7 +239,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
   <!--about-info end-->
 <!-- INSERT WHY CHOOSE US HERE! -->
-  <section class="contactWrap">
+  <section class="aboutWrap">
       <div class="container" style="margin-bottom: 30px;">
       <div class="section-title whyChooseSecTitle">
         <h3>Why <span>Choose </span>Us?</h3>

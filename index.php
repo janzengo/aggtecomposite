@@ -232,7 +232,7 @@
 
     <!--about-info start-->
     <section class="about-info">
-      <div class="about-img-pro" style="background-image:url(images/front3.jpg)"></div>
+      <div class="about-img-pro"></div>
       <div class="container">
         <!--row start-->
         <div class="row">
@@ -487,7 +487,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/9.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/cladding/9.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Cladding</h3>
                <p>San Pablo, Laguna</p>
@@ -498,7 +498,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/12.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/cladding/12.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Cladding</h3>
                <p>Maragondon, Cavite</p>
@@ -509,7 +509,7 @@
          <!--col end-->
            <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-           <div class="image-hover-effect-4"> <img src="images/gallery/decking/4.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/decking/4.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Decking</h3>
                <p>Nueva Ecija</p>
@@ -520,7 +520,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/3.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/cladding/3.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Cladding</h3>
                <p>Quezon City, Metro Manila</p>
@@ -531,7 +531,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
-           <div class="image-hover-effect-4"> <img src="images/gallery/gates/13.webp" alt="img-1">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/gates/13.webp" alt="img-1">
              <div class="caption">
                <h3>WPC Gate</h3>
                <p>Santiago, Isabela</p>
@@ -542,7 +542,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-           <div class="image-hover-effect-4"> <img src="images/gallery/decking/6.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/decking/6.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Decking</h3>
                <p>Pangasinan</p>
@@ -553,7 +553,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item gates">
-           <div class="image-hover-effect-4"> <img src="images/gallery/gates/14.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/gates/14.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Gates</h3>
                <p>Olongapo City</p>
@@ -564,7 +564,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item gates">
-           <div class="image-hover-effect-4"> <img src="images/gallery/gates/4.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/gates/4.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Gates</h3>
                <p>Las Piñas</p>
@@ -575,7 +575,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/14.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/cladding/14.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Cladding</h3>
                <p>Batangas City</p>
@@ -586,7 +586,7 @@
          <!--col end-->
             <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-           <div class="image-hover-effect-4"> <img src="images/gallery/decking/18.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/decking/18.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Decking</h3>
                <p>Calamba, Laguna</p>
@@ -597,7 +597,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item gates">
-           <div class="image-hover-effect-4"> <img src="images/gallery/gates/7.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/gates/7.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Gates</h3>
                <p>Balayan, Batangas</p>
@@ -608,7 +608,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-           <div class="image-hover-effect-4"> <img src="images/gallery/decking/21.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/decking/21.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Decking</h3>
                <p>Camp Aurora Lumban Laguna</p>
@@ -619,7 +619,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-           <div class="image-hover-effect-4"> <img src="images/gallery/decking/11.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/decking/11.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Decking</h3>
                <p>Quezon City </p>
@@ -630,7 +630,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/30.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/cladding/30.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Cladding</h3>
                <p>Dipolog City, Zamboanga del Norte</p>
@@ -641,7 +641,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/28.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/cladding/28.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Cladding</h3>
                <p>Cavite</p>
@@ -652,7 +652,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
-           <div class="image-hover-effect-4"> <img src="images/gallery/gates/12.webp" alt="img-1">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/gates/12.webp" alt="img-1">
              <div class="caption">
                <h3>WPC Gate</h3>
                <p>Batasan, Quezon City</p>
@@ -663,7 +663,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item decking">
-           <div class="image-hover-effect-4"> <img src="images/gallery/decking/15.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/decking/15.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Decking</h3>
                <p>Parañaque</p>
@@ -674,7 +674,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item cladding">
-           <div class="image-hover-effect-4"> <img src="images/gallery/cladding/26.webp" alt="img-8">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/cladding/26.webp" alt="img-8">
              <div class="caption">
                <h3>WPC Cladding</h3>
                <p>Balayan, Batangas</p>
@@ -685,7 +685,7 @@
          <!--col end-->
          <!--col start-->
          <li class="col-md-3 col-sm-6 col-xs-12 nf-item grid-sizer gates">
-           <div class="image-hover-effect-4"> <img src="images/gallery/gates/10.webp" alt="img-1">
+           <div class="image-hover-effect-4"> <img loading="lazy" src="images/gallery/gates/10.webp" alt="img-1">
              <div class="caption">
                <h3>WPC Gate</h3>
                <p>Muzon, Batangas</p>
@@ -822,9 +822,6 @@
     <?php include 'footer.php'; ?>
     <!--footer-sec-end-->
   </div>
-
-
-
   <!--scroll-to-top start-->
   <!--<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>-->
   <!--scroll-to-top end-->
@@ -847,52 +844,4 @@
   </script>
   <!--j query end-->
 </body>
-<script>
-  function makeid(length) {
-    var result = '';
-    var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    var charactersLength = characters.length;
-    for (var i = 0; i < length; i++) {
-      result += characters.charAt(Math.floor(Math.random() *
-        charactersLength));
-    }
-    return result;
-  }
-  $(function() {
-    // Cookies
-    function setCookie(name, value, days) {
-      if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-        var expires = "; expires=" + date.toGMTString();
-      } else var expires = "";
-
-      document.cookie = name + "=" + value + expires + "; path=/";
-    }
-
-    function getCookie(name) {
-      var nameEQ = name + "=";
-      var ca = document.cookie.split(';');
-      for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-      }
-      return null;
-    }
-    code = makeid(19);
-    var myCookie = getCookie("__sbmdl");
-    if (myCookie == null) {
-      $(document).ready(function() {
-        setTimeout(function() {
-          document.getElementById('subButton').click();
-        }, 6000);
-      });
-      setCookie("__sbmdl", code, 7);
-    } else {
-      $('#subButton').css('display', 'none');
-    }
-  });
-</script>
-
 </html>

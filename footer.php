@@ -8,35 +8,35 @@
     <div class="brand-content">
       <ul class="brand-slider">
         <li>
-          <figure class="logo-grey-style"> <img src="<?php echo $root; ?>/images/company-logo/company5.PNG" alt="aquaponicsgogreen" class="img-responsive">
+          <figure class="logo-grey-style"> <img loading="lazy" src="<?php echo $root; ?>/images/company-logo/company5.PNG" alt="aquaponicsgogreen" class="img-responsive">
             <figcaption>
               <h5>Aquaponic GoGreen</h5>
             </figcaption>
             <a href="https://aquaponicsgogreen.com/" target="_blank"></a> </figure>
         </li>
         <li>
-          <figure class="logo-grey-style"> <img src="<?php echo $root; ?>/images/company-logo/company1.PNG" alt="CSIBiowood" class="img-responsive">
+          <figure class="logo-grey-style"> <img loading="lazy" src="<?php echo $root; ?>/images/company-logo/company1.PNG" alt="CSIBiowood" class="img-responsive">
             <figcaption>
               <h5>CSI Biowood</h5>
             </figcaption>
             <a href="http://biowood.ph/" target="_blank"></a> </figure>
         </li>
         <li>
-          <figure class="logo-grey-style"> <img src="<?php echo $root; ?>/images/company-logo/company2.PNG" alt="GRMBiowood" class="img-responsive">
+          <figure class="logo-grey-style"> <img loading="lazy" src="<?php echo $root; ?>/images/company-logo/company2.PNG" alt="GRMBiowood" class="img-responsive">
             <figcaption>
               <h5>GRM Biowood</h5>
             </figcaption>
             <a href="http://www.grmbiowood.com.ph/" target="_blank"></a> </figure>
         </li>
         <li>
-          <figure class="logo-grey-style"> <img src="<?php echo $root; ?>/images/company-logo/company3.PNG" alt="solidwood" class="img-responsive">
+          <figure class="logo-grey-style"> <img loading="lazy" src="<?php echo $root; ?>/images/company-logo/company3.PNG" alt="solidwood" class="img-responsive">
             <figcaption>
               <h5>Solidwood</h5>
             </figcaption>
             <a href="https://www.solidwood.ph/" target="_blank"></a> </figure>
         </li>
         <li>
-          <figure class="logo-grey-style"> <img src="<?php echo $root; ?>/images/company-logo/company4.png" alt="armada" class="img-responsive">
+          <figure class="logo-grey-style"> <img loading="lazy" src="<?php echo $root; ?>/images/company-logo/company4.png" alt="armada" class="img-responsive">
             <figcaption>
               <h5>Armada</h5>
             </figcaption>
@@ -138,7 +138,7 @@
       <div class="row">
         <!--col start-->
        <div class="col-md-6 col-sm-6">
-           <p><a target="_blank" href="https://www.facebook.com/wpc.claddingdecking">&copy; <?php echo date("Y") ?> Aquaponics GoGreen All Rights Reserved</a> <br><span style="font-size: 14px;"> Design by <a href="https://www.linkedin.com/in/janzengo" target="_blank">Janzen Go</a> <a href="mailto:jjanzen.go@gmail.com"><i class="fas fa-envelope"></i></a> | Freelance Web Developer</span></p>
+           <p><a target="_blank" href="https://www.facebook.com/wpc.claddingdecking">&copy; <?php echo date("Y") ?> Aquaponics GoGreen All Rights Reserved</a> <br><span style="font-size: 14px;"> Developed by <a href="https://www.linkedin.com/in/janzengo" target="_blank">Janzen Go</a> <a href="mailto:jjanzen.go@gmail.com"><i class="fas fa-envelope"></i></a> | Freelance Web Developer</span></p>
           </div>
         <!--col end-->
         <!--col start-->
@@ -158,6 +158,7 @@
   <!--container end-->
 </footer>
 <!--footer-secn end-->
+
 <!-- Cookie Consent -->
 <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
 <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>
@@ -175,11 +176,57 @@ if($(window).width() >= 1024){
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/jquery.fancybox8cbb.js?v=2.1.5"></script>
   <script src="js/owl.carousel.js"></script>
-  <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-  <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
   <script src="js/counter.js"></script>
-  <script src="js/smoothscroll.js"></script>
   <script src="js/script.js"></script>
   <script src="js/custom1.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
+
+  <script>
+  function makeid(length) {
+    var result = '';
+    var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for (var i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() *
+        charactersLength));
+    }
+    return result;
+  }
+  $(function() {
+    // Cookies
+    function setCookie(name, value, days) {
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        var expires = "; expires=" + date.toGMTString();
+      } else var expires = "";
+
+      document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    }
+    code = makeid(19);
+    var myCookie = getCookie("__sbmdl");
+    if (myCookie == null) {
+      $(document).ready(function() {
+        setTimeout(function() {
+          document.getElementById('subButton').click();
+        }, 6000);
+      });
+      setCookie("__sbmdl", code, 7);
+    } else {
+      $('#subButton').css('display', 'none');
+    }
+  });
+</script>
+
 </html>

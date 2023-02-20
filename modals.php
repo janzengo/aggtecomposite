@@ -445,7 +445,7 @@ TripettoChat.run({
 <!--subscription-modal start-->
 <div class="modalS fade bs-example-modal-mds sub" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-md" role="document">
-    <div class="modal-content" style="background-image:url(images/subscribe.png)">
+    <div class="modal-content newsletter">
       <div class="top_linksSub"><a href="#" data-dismiss="modal" aria-label="Close">Close (X)</a></div>
       <h2 class="modal-title">Join Our Newsletter</h2>
       <label style="margin: 22px 34px 0px 34px;color: #fff;">Please read on, stay posted, subscribe, and we welcome you to tell us what you think.</label>

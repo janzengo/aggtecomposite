@@ -745,7 +745,7 @@
           <!--col start-->
           <div class="col-md-6">
             <div class="about-video-item">
-              <div class="about-video-img"> <img src="images/welcome-1.jpg" alt="thumbnail"> <a class="video-play mfp-iframe xs-video" href="media/homeVid.mp4"><i class="fa fa-play"></i></a> </div>
+              <div class="about-video-img"> <img src="images/background-images/welcome-1.webp" alt="thumbnail"> <a class="video-play mfp-iframe xs-video" href="media/homeVid.mp4"><i class="fa fa-play"></i></a> </div>
             </div>
           </div>
           <!--col end-->

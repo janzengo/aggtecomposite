@@ -161,7 +161,8 @@
 
 <!-- Cookie Consent -->
 <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
-<script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>
+<script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script>
+<script>
 if($(window).width() >= 1024){
   window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#2e6a11","text":"#ffffff","border":"#b5e1a0"},"button":{"background":"#b5e1a0","text":"#000000"}},"padding":"small","transparency":"15","content":{"href":"privacy-policy.php","message":"We use cookies to ensure you get the best experience on our website. By continuing, you are agreeing to our use of cookies. To find out more, please click","link":"this link.","button":"Agree"}})});
 }else {}
@@ -169,17 +170,7 @@ if($(window).width() >= 1024){
 <!-- End Cookie Consent -->
 
 <!-- Scripts -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  <script src="js/jquery.fancybox8cbb.js?v=2.1.5"></script>
-  <script src="js/owl.carousel.js"></script>
-  <script src="js/counter.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/custom1.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
+  <?php include 'scripts.php' ?>
 
   <script>
   function makeid(length) {
@@ -228,5 +219,4 @@ if($(window).width() >= 1024){
     }
   });
 </script>
-
 </html>

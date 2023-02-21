@@ -41,18 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Fav Icon -->
 <link class="logoicon" rel="shortcut icon" href="favicon.ico">
-<!-- Style CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/upgrade.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="dist/color-default.css">
-<link href="css/magnific-popup.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/modal-designs.css" rel="stylesheet">
-<link href="css/owl.css" rel="stylesheet">
-<link href="css/jquery.fancybox.css" rel="stylesheet">
-<link href="css/style_slider.css" rel="stylesheet">
-
 <!-- Canonical -->
 
 <link rel=“canonical” href=“https://www.aggtedeck.com/cleaning” />
@@ -103,6 +91,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
+<?php include 'links.php'; ?>
 </head>
 <body>
 

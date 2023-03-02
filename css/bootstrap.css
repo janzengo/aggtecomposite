@@ -1044,7 +1044,8 @@ a {
 	text-decoration: none
 }
 a:focus, a:hover {
-	color: #23527c;
+	transition: ease all .3s;
+	color: rgb(90, 196, 69);
 	text-decoration: underline
 }
 a:focus {
@@ -2275,10 +2276,10 @@ output {
 	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
 }
 .form-control:focus {
-	border-color: #66afe9;
+	border-color: #228b22;
 	outline: 0;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
-	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6)
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(50, 163, 22, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(6, 150, 18, 0.6)
 }
 .form-control::-moz-placeholder {
 color:#999;
@@ -2727,13 +2728,17 @@ select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-contr
 }
 .btn-info {
 	color: #fff;
-	background-color: #5bc0de;
-	border-color: #46b8da
+	background-color: #228b22;
+	border-color: #228b22;
+	transition: all ease 0.3s;
+}
+.btn-thin {
+	padding-bottom: 5px !important;
 }
 .btn-info.active, .btn-info.focus, .btn-info:active, .btn-info:focus, .btn-info:hover, .open>.dropdown-toggle.btn-info {
 	color: #fff;
-	background-color: #31b0d5;
-	border-color: #269abc
+	background-color: #1c831c;
+	border-color: #1c831c
 }
 .btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info {
 	background-image: none
@@ -2802,7 +2807,7 @@ select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-contr
 	border-color: transparent
 }
 .btn-link:focus, .btn-link:hover {
-	color: #23527c;
+	color: #d5fff7;
 	text-decoration: underline;
 	background-color: transparent
 }
@@ -3951,7 +3956,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	border-bottom-right-radius: 4px
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-	color: #23527c;
+	color: #d5fff7;
 	background-color: #eee;
 	border-color: #ddd
 }
@@ -4069,7 +4074,7 @@ a.label:focus, a.label:hover {
 	background-color: #5bc0de
 }
 .label-info[href]:focus, .label-info[href]:hover {
-	background-color: #31b0d5
+	background-color: #228b22
 }
 .label-warning {
 	background-color: #f0ad4e
@@ -4857,7 +4862,7 @@ button.close {
 	display: none;
 	overflow: hidden;
 	-webkit-overflow-scrolling: touch;
-	outline: 0
+	outline: 0;
 }
 .modal.fade .modal-dialog {
 	-webkit-transition: -webkit-transform .3s ease-out;
@@ -4902,7 +4907,7 @@ button.close {
 	bottom: 0;
 	left: 0;
 	z-index: 1040;
-	background-color: #000
+	background-color: #000;
 }
 .modal-backdrop.fade {
 	filter: alpha(opacity=0);

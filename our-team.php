@@ -40,17 +40,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Fav Icon -->
 <link class="logoicon" rel="shortcut icon" href="favicon.ico">
-<!-- Style CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="dist/color-default.css">
-<link href="css/magnific-popup.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/owl.css" rel="stylesheet">
-<link href="css/jquery.fancybox.css" rel="stylesheet">
-<link href="css/modal-designs.css" rel="stylesheet">
-<link href="css/style_slider.css" rel="stylesheet">
-
 <!-- Canonical -->
 
 <link rel=“canonical” href=“https://www.aggtedeck.com/our-team” />
@@ -101,6 +90,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
+<?php include 'links.php'; ?>
 </head>
 <body>
 
@@ -114,7 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--Load Facebook SDK for JavaScript End Here-->
 <div class="page-wrapper">
   <!--preloader start-->
-<div class="preloader">
+<div id="preloader" class="preloader">
 </div>
 <script
         src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -206,7 +196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="link-wrap"> <a href="https://www.facebook.com/dimplefevz" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/AggDimple?s=07&fbclid=IwAR0v9SwzJYfutqcqk7hxxCU3zbawwDlBfhczIdiAX_C5WF4bABqBVvSw9gA" target="_blank"><i class="fa fa-twitter"></i></a> </div>
             </div>
           </li>
-          <li>
+          <!--<li>
             <div class="teamWrap"> <img src="images/team2.png" class="img-responsive" alt="img1">
               <div class="caption">
                 <h3>Arnel Go </h3>
@@ -214,7 +204,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <div class="link-wrap"> <a href="https://www.facebook.com/arniel.go/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/arnelbgo" target="_blank"><i class="fa fa-twitter"></i></a> </div>
             </div>
-          </li>
+          </li>-->
             <li>
             <div class="teamWrap"> <img src="images/team3.png" class="img-responsive" alt="img1">
               <div class="caption">
@@ -224,7 +214,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="link-wrap"> <a href="https://www.facebook.com/profile.php?id=100048900524366&sk" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/maderandawayf " target="_blank"><i class="fa fa-twitter"></i></a> </div>
             </div>
           </li>
-            <li>
+          <!--<li>
             <div class="teamWrap"> <img src="images/team4.png" class="img-responsive" alt="img1">
               <div class="caption">
                 <h3>Andrew Mañibo </h3>
@@ -233,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <div class="link-wrap"><a href="https://www.facebook.com/andrew.man24" target="_blank"><i class="fa fa-facebook"></i></a></div>
             </div>
-          </li>
+          </li>-->
         </ul>
       </div>
     </div>
@@ -247,22 +237,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--scroll-to-top start-->
 <!--<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>-->
 <!--scroll-to-top end-->
-
-<!--jquery start-->
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.fancybox8cbb.js?v=2.1.5"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/counter.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/script.js"></script>
-<script src="js/messageCounter.js"></script>
-<!--jquery end-->
 </body>
 
 

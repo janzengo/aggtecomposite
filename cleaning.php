@@ -41,17 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Fav Icon -->
 <link class="logoicon" rel="shortcut icon" href="favicon.ico">
-<!-- Style CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="dist/color-default.css">
-<link href="css/magnific-popup.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/modal-designs.css" rel="stylesheet">
-<link href="css/owl.css" rel="stylesheet">
-<link href="css/jquery.fancybox.css" rel="stylesheet">
-<link href="css/style_slider.css" rel="stylesheet">
-
 <!-- Canonical -->
 
 <link rel=“canonical” href=“https://www.aggtedeck.com/cleaning” />
@@ -102,6 +91,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
+<?php include 'links.php'; ?>
 </head>
 <body>
 
@@ -115,7 +105,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--Load Facebook SDK for JavaScript End Here-->
 <div class="page-wrapper">
   <!--preloader start-->
-<div class="preloader">
+<div id="preloader" class="preloader">
 </div>
 <script
         src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -353,21 +343,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--scroll-to-top start-->
 <!--<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>-->
 <!--scroll-to-top end-->
-
-<!--jquery start-->
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.fancybox8cbb.js?v=2.1.5"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/counter.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/script.js"></script>
-<script src="js/messageCounter.js"></script>
 <script type = "text/javascript">
             function comfirmFunc() {
                window.open("https://shopee.ph/Wood-Plastic-Composite-(WPC)-SAMPLE-Decking-or-Cladding-i.74758878.4843042912", '_blank');

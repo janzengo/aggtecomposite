@@ -41,21 +41,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Fav Icon -->
 <link class="logoicon" rel="shortcut icon" href="favicon.ico">
-<!-- Style CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="dist/color-default.css">
-<link href="css/magnific-popup.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/owl.css" rel="stylesheet">
-<link href="css/jquery.fancybox.css" rel="stylesheet">
-<link href="css/modal-designs.css" rel="stylesheet">
-<link href="css/style_slider.css" rel="stylesheet">
-
 <!-- Canonical -->
 
 <link rel=“canonical” href=“https://www.aggtedeck.com/contact” />
 
+<!-- Style -->
+<style>
+  .form-submit {background: none; text-transform: uppercase;}
+</style>
 <!-- Local Schema -->
 <script type="application/ld+json">
 {
@@ -102,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
-
+<?php include 'links.php'; ?>
 </head>
 <body>
 
@@ -116,7 +109,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--Load Facebook SDK for JavaScript End Here-->
 <div class="page-wrapper">
   <!--preloader start-->
-<div class="preloader">
+<div id="preloader" class="preloader">
 </div>
 <script
         src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -203,7 +196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="contact-item">
             <div class="fig_caption">
-              <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i> </div>
+              <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i> </div>
               <div class="details">
                 <h3>Mail us</h3>
                 <p> <strong>Sales Team</strong>
@@ -249,39 +242,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h3>Drop <span>your message</span></h3>
 
       </div>
-<form action="php/contacts.php" method="POST" id="xs-contact-form" class="xs-form">
+<form action="products/formphp/contacts.php" method="POST" id="xs-contact-form" class="xs-form">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="name" placeholder="Your name" id="xs_contact_name">
+                                <input type="text" class="form-control" name="clientName" placeholder="Your name" id="xs_contact_name" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control invaild" name="email" placeholder="Your email" id="xs_contact_email">
+                                <input type="email" class="form-control invaild" name="email" placeholder="Your email" id="xs_contact_email" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="phone_number" placeholder="Your phone number" id="xs_contact_phone">
+                                <input type="tel" class="form-control" name="phone_number" placeholder="Your phone number" id="xs_contact_phone" required>
 
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" id="xs_contact_subject">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" id="xs_contact_subject" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <label>Request Phone Call?:</label><br>
-                                <input type="radio" value="Yes" name="call">
+                                <input type="radio" value="Yes" name="call" required>
                                 <label for="Yes">Yes</label><br>
                                 <input type="radio" value="No" name="call">
                                 <label for="No">No</label><br><br>
                                 </div>
                         </div>
 
-                        <textarea name="message" placeholder="Message" id="x_contact_massage" class="form-control message-box" cols="30" rows="10"></textarea>
+                        <textarea name="req-message" placeholder="Message" id="x_contact_massage" class="form-control message-box" cols="30" rows="10" required></textarea>
  <div class="readmore text-center">
-              <button class="main-btn btn-1 btn-1e">SEND MESSAGE</button>
+              <button class="main-btn btn-1 btn-1e"><input class="form-submit" name="submit" type="submit" placeholder="SEND">
             </div>
-
                     </form>
     </div>
     <!--container end-->
@@ -299,7 +291,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1628.405669249255!2d120.9221304570701!3d13.897559991607046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0b9fbd9bd213%3A0x8cdd89241f920e88!2sAGGTEDEck%20Composite%20Cladding%20%26%20Decking!5e0!3m2!1sen!2sph!4v1618574107701!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-    </div>
+    </div> 
 </div>
     <!--footer-sec-start-->
       <?php include 'footer.php'; ?>
@@ -308,22 +300,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--scroll-to-top start-->
 <!--<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>-->
 <!--scroll-to-top end-->
-
-<!--jquery start-->
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.fancybox8cbb.js?v=2.1.5"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/counter.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/script.js"></script>
-<script src="js/messageCounter.js"></script>
-<!--jquery end-->
 </body>
 
 </html>

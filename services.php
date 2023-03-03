@@ -41,17 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Fav Icon -->
 <link class="logoicon" rel="shortcut icon" href="favicon.ico">
-<!-- Style CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/customservice.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="dist/color-default.css">
-<link href="css/magnific-popup.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/owl.css" rel="stylesheet">
-<link href="css/jquery.fancybox.css" rel="stylesheet">
-<link href="css/style_slider.css" rel="stylesheet">
-<link href="css/modal-designs.css" rel="stylesheet">
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
 <!-- Canonical -->
@@ -105,6 +94,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 </script>
 </head>
+<?php include 'links.php'; ?>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4S5CH8"
@@ -121,7 +111,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script
         src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
         integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+</script>
 <script>
     $(function() {
         // Cookies
@@ -192,11 +183,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="single-service">
             <div class="sec-title" id="sec-title">
-              <h2>Download<span> brochure</span></h2>
+              <h2>Download<span>Section</span></h2>
               <span>Here are some useful documents</span> </div>
             <ul class="brochure-btns">
-              <li><a href="files/Price-List.pdf" class="clearfix" download="product" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Download Pricelist</span> </a></li>
-              <li><a href="files/Product-Brochure.pdf" class="clearfix" download="Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Download Brochure</span></a></li>
+              <li><a href="files/AGGTEDeck_Price-List.pdf" class="clearfix" download="AGGTEDeck_Price-List" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Pricelist</span> </a></li>
+              <li><a href="files/AGGTEDeck_Price-List_Product-Brochure.pdf" class="clearfix" download="AGGTEDeck_Product-Brochure" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Product Brochure</span></a></li>
+              <li><a href="files/AGGTEDeck_ground_preparation_guide.pdf" class="clearfix" download="AGGTEDeck_ground_preparation_guide" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Ground Prep. Guide</span></a></li>
+              <li><a href="files/AGGTEDeck_WPC-Deck_Clad_maintenance_guide.pdf" class="clearfix" download="AGGTEDeck_WPC-Deck_Clad_maintenance_guide" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Ground Maintenance Guide</span></a></li>
+              <li><a href="files/AGGTEDeck_Co_extrusion-Tech_Spec.pdf" class="clearfix" download="AGGTEDeck_Co_extrusion-Tech_Spec" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>Co-Extrusion Profile Datasheet</span></a></li>
+              <li><a href="files/AGGTEDeck_wpc_deck_pre_installation_guidelines.pdf" class="clearfix" download="AGGTEDeck_wpc_deck_pre_installation_guidelines" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>WPC Pre-Installation Guides</span></a></li>
+              <li><a href="files/AGGTEDeck_wpc_deck_pre_installation_checklist.pdf" class="clearfix" download="AGGTEDeck_wpc_deck_pre_installation_checklist" target="_blank"><i class="fa fa-file-pdf-o"></i> <span>WPC Pre-Installation Checklist</span></a></li>
             </ul>
           </div>
         </div>
@@ -291,22 +287,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--scroll-to-top start-->
 <!--<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>-->
 <!--scroll-to-top end-->
-
-<!--jquery start-->
-<script src="js/jquery-2.1.4.min.js"></script>
-<script defer src="js/jquery.flexslider.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.fancybox8cbb.js?v=2.1.5"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/counter.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/script.js"></script>
-<script src="js/messageCounter.js"></script>
 <script src="js/customized.js"></script>
 <script src="js/customizedcolor.js"></script>
 <script>

@@ -96,22 +96,13 @@ To give you an idea of our prevailing product prices, kindly follow this link an
 
 <!-- Fav Icon -->
 <link class="logoicon" rel="shortcut icon" href="favicon.ico">
-<!-- Style CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="dist/color-default.css">
-
-<link href="css/magnific-popup.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/owl.css" rel="stylesheet">
-<link href="css/modal-designs.css" rel="stylesheet">
-<link href="css/jquery.fancybox.css" rel="stylesheet">
-<link href="css/style_slider.css" rel="stylesheet">
-
+<style>
+  .form-submit {background: none; text-transform: uppercase;}
+</style>
 <!-- Canonical -->
 
 <link rel=“canonical” href=“https://www.aggtedeck.com/faq” />
-
+<?php include 'links.php'; ?>
 </head>
 <body>
 
@@ -125,7 +116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--Load Facebook SDK for JavaScript End Here-->
 <div class="page-wrapper">
   <!--preloader start-->
-<div class="preloader">
+<div id="preloader" class="preloader">
 </div>
 <script
         src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -391,12 +382,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-                <form action="php/faq.php" method="POST" id="xs-contact-form" class="xs-form">
-                            <input required type="text" class="form-control" name="name" placeholder="Name" id="xs_contact_name">
+                <form action="products/formphp/faqs.php" method="POST" id="xs-contact-form" class="xs-form">
+                            <input required type="text" class="form-control" name="clientName" placeholder="Name" id="xs_contact_name">
                             <input required  type="email" class="form-control" name="email" placeholder="Email" id="xs_contact_email">
                             <input required type="text" class="form-control" name="phone_number" placeholder="Contact Number" id="xs_contact_email">
 
-                     <! --Adding Radio button -->
+                     <!-- Adding Radio button -->
                      <div class="form-group">
                         <label>Request Phone Call?:</label> <br>
                         <input type="radio" value="Yes" name="call">
@@ -405,15 +396,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <label for="No">No</label><br>
                     </div>
 
-                            <textarea required name="message" placeholder="Your Question" id="x_contact_massage" class="form-control message-box" cols="30" rows="10"></textarea>
+                            <textarea required name="rq-message" placeholder="Your Question" id="x_contact_massage" class="form-control message-box" cols="30" rows="10"></textarea>
                            <div class="readmore text-center">
-              <button class="main-btn btn-1 btn-1e">SEND QUESTION</button>
+                           <button class="main-btn btn-1 btn-1e"><input class="form-submit" name="submit" type="submit" placeholder="SEND">
             </div>
-
-
-                        </form>
-
-
+        </form>
               </div>
             </div>
           </div>
@@ -432,22 +419,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--scroll-to-top start-->
 <!--<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>-->
 <!--scroll-to-top end-->
-
-<!--jquery start-->
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.fancybox8cbb.js?v=2.1.5"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/counter.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/script.js"></script>
-<script src="js/messageCounter.js"></script>
-<!--jquery end-->
 </body>
 
 </html>
